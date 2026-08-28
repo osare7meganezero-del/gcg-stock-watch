@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "intervalMinutes": 30,
+  "minDelaySeconds": 4.0,
+  "freshHours": 6,
+  "minOutOfStockConfirmations": 2,
+  "note": "監視停止は enabled=false。v1.9は2枚アクセス監査で採用したショップ/カードグループだけ通常監視。取得不能は在庫なしにしません。"
+}
