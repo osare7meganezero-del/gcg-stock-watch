@@ -1,0 +1,74 @@
+name: Update GCG stock
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 約15分ごと
+    - cron: '7,22,37,52 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gcg-stock-watch-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r scripts/requirements.txt
+
+      - name: Two-card access preflight
+        run: python scripts/probe_shops.py
+
+      - name: Scan verified shop scopes only
+        run: python scripts/scan_shops.py
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Commit stock state to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! git diff --quiet -- config/source_state.json site/data/state.json site/data/cards.json site/data/shops.json site/data/probe_runtime.json; then
+            git config user.name "gcg-stock-watch-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add config/source_state.json site/data/state.json site/data/cards.json site/data/shops.json site/data/probe_runtime.json
+            git commit -m "chore: update GCG stock state"
+            git push origin HEAD:main
+          else
+            echo "No meaningful stock change; main commit skipped."
+          fi
+
+      - name: Build XServer public branch
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/gcg-xserver-public
+          mkdir -p /tmp/gcg-xserver-public
+          cp -a site/. /tmp/gcg-xserver-public/
+          cd /tmp/gcg-xserver-public
+          git init -b xserver-public
+          git config user.name "gcg-stock-watch-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "deploy: XServer Static snapshot"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin xserver-public
