@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T05:14:41.433540Z",
+  "generatedAt": "2026-08-29T05:29:39.575565Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -81,13 +81,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend",
-          "bytes": 193043
+          "bytes": 193097
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 69711
+          "bytes": 69821
         }
       }
     },
@@ -115,7 +115,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 518899
+          "bytes": 518849
         },
         "beta": {
           "status": "not_configured",
@@ -198,13 +198,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.hobbystation-single.jp/gc/product/list",
-          "bytes": 326290
+          "bytes": 326248
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.hobbystation-single.jp/gc/product/list",
-          "bytes": 326358
+          "bytes": 326328
         }
       }
     },
@@ -232,7 +232,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 984115
+          "bytes": 984214
         },
         "beta": {
           "status": "not_configured",
@@ -249,13 +249,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 118222
+          "bytes": 118178
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 260558
+          "bytes": 260598
         }
       }
     },
@@ -362,7 +362,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 194967
+          "bytes": 107876
         },
         "beta": {
           "status": "page_ok_sample_missing",
