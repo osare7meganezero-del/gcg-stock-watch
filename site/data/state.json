@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-08-29T10:29:27.700356Z",
+  "generatedAt": "2026-08-29T10:44:34.114784Z",
   "scan": {
     "configuredShops": 15,
     "shopsReached": 11,
@@ -8,7 +8,7 @@
     "pagesRequested": 36,
     "intervalMinutes": 30,
     "freshHours": 6.0,
-    "lastAttemptAt": "2026-08-29T10:29:27.700356Z",
+    "lastAttemptAt": "2026-08-29T10:44:34.114784Z",
     "policy": "sequential; >= 4.0s between requests per shop; robots check; 403/429 circuit breaker; no visitor-triggered scraping; no purchase automation",
     "shops": [
       {
@@ -21,7 +21,7 @@
         "pagesOk": 7,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "cardlabo",
@@ -33,7 +33,7 @@
         "pagesOk": 6,
         "exactCards": 25,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "amenity",
@@ -45,7 +45,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "fullcomp",
@@ -57,7 +57,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "gunhappy",
@@ -69,7 +69,7 @@
         "pagesOk": 3,
         "exactCards": 5,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "projectcore",
@@ -81,7 +81,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "pao",
@@ -93,7 +93,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "spiral",
@@ -105,7 +105,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "cardmax",
@@ -117,7 +117,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "bankoku",
@@ -129,7 +129,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "mercard",
@@ -141,7 +141,7 @@
         "pagesOk": 3,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "hobbystation",
@@ -153,7 +153,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "advantage",
@@ -165,7 +165,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "193net",
@@ -177,7 +177,7 @@
         "pagesOk": 1,
         "exactCards": 2,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "tierone",
@@ -187,9 +187,9 @@
         "robotsAllowed": true,
         "pagesRequested": 3,
         "pagesOk": 3,
-        "exactCards": 11,
+        "exactCards": 14,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "mintmall",
@@ -201,7 +201,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "cardland",
@@ -213,7 +213,7 @@
         "pagesOk": 6,
         "exactCards": 25,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "dorasuta",
@@ -225,7 +225,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "playze",
@@ -237,7 +237,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "cardkingdom",
@@ -249,7 +249,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "torekaoh",
@@ -261,7 +261,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "fukufuku",
@@ -273,7 +273,7 @@
         "pagesOk": 2,
         "exactCards": 11,
         "error": null,
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "manzokuya",
@@ -285,7 +285,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "dmmmyca",
@@ -297,7 +297,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "yuyutei",
@@ -309,7 +309,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       },
       {
         "id": "torecolo",
@@ -321,7 +321,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 406; safety stop",
-        "checkedAt": "2026-08-29T10:29:27.700356Z"
+        "checkedAt": "2026-08-29T10:44:34.114784Z"
       }
     ]
   },
@@ -354,7 +354,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD01-067",
@@ -391,7 +391,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD02-038",
@@ -421,7 +421,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD02-054",
@@ -451,7 +451,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD03-017",
@@ -481,7 +481,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD03-035",
@@ -511,7 +511,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD04-017",
@@ -548,7 +548,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD04-050",
@@ -571,41 +571,48 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD05-002",
       "status": "green",
       "availability": "in_stock",
-      "price": 148000,
+      "price": 99800,
       "shop": "Tier One",
       "shopCount": 1,
-      "productUrl": "https://tier-one.jp/view/item/000000016236?category_page_id=gcg",
+      "productUrl": "https://tier-one.jp/view/item/000000016236?category_page_id=gcggd",
       "lastProductUrl": null,
       "inventories": [
         {
           "id": "tierone",
           "name": "Tier One",
-          "url": "https://tier-one.jp/view/item/000000016236?category_page_id=gcg",
-          "price": 148000,
-          "stock": 288
+          "url": "https://tier-one.jp/view/item/000000016236?category_page_id=gcggd",
+          "price": 99800,
+          "stock": 30
         }
       ],
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD05-017",
       "status": "green",
       "availability": "in_stock",
-      "price": 279980,
-      "shop": "カードランド",
-      "shopCount": 1,
-      "productUrl": "https://www.cardland-kamata.com/product-list/917",
+      "price": 99800,
+      "shop": "Tier One",
+      "shopCount": 2,
+      "productUrl": "https://tier-one.jp/view/item/000000016239?category_page_id=gcggd",
       "lastProductUrl": null,
       "inventories": [
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000016239?category_page_id=gcggd",
+          "price": 99800,
+          "stock": 30
+        },
         {
           "id": "cardland",
           "name": "カードランド",
@@ -617,33 +624,48 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD05-033",
-      "status": "gray",
-      "availability": "out_of_stock",
-      "price": null,
-      "shop": "",
-      "shopCount": 0,
-      "productUrl": null,
+      "status": "blue",
+      "availability": "in_stock",
+      "price": 99800,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000016216?category_page_id=gcg",
       "lastProductUrl": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-      "inventories": [],
+      "inventories": [
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000016216?category_page_id=gcg",
+          "price": 99800,
+          "stock": 2
+        }
+      ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD05-049",
       "status": "green",
       "availability": "in_stock",
-      "price": 149980,
-      "shop": "カードランド",
-      "shopCount": 1,
-      "productUrl": "https://www.cardland-kamata.com/product-list/917",
+      "price": 99800,
+      "shop": "Tier One",
+      "shopCount": 2,
+      "productUrl": "https://tier-one.jp/view/item/000000016247?category_page_id=gcggd",
       "lastProductUrl": null,
       "inventories": [
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000016247?category_page_id=gcggd",
+          "price": 99800,
+          "stock": 30
+        },
         {
           "id": "cardland",
           "name": "カードランド",
@@ -655,30 +677,30 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "LRpp-GD05-067",
       "status": "green",
       "availability": "in_stock",
-      "price": 148000,
+      "price": 99800,
       "shop": "Tier One",
       "shopCount": 1,
-      "productUrl": "https://tier-one.jp/view/item/000000016253?category_page_id=gcg",
+      "productUrl": "https://tier-one.jp/view/item/000000016253?category_page_id=gcggd",
       "lastProductUrl": null,
       "inventories": [
         {
           "id": "tierone",
           "name": "Tier One",
-          "url": "https://tier-one.jp/view/item/000000016253?category_page_id=gcg",
-          "price": 148000,
-          "stock": 288
+          "url": "https://tier-one.jp/view/item/000000016253?category_page_id=gcggd",
+          "price": 99800,
+          "stock": 30
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-ST01-001",
@@ -701,7 +723,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-ST01-011",
@@ -745,7 +767,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-ST02-001",
@@ -760,7 +782,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-ST03-011",
@@ -797,7 +819,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-ST04-001",
@@ -827,7 +849,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-GD01-004",
@@ -850,7 +872,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-GD01-026",
@@ -887,7 +909,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-GD01-070",
@@ -917,7 +939,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-GD01-088",
@@ -940,7 +962,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-GD01-100",
@@ -963,7 +985,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-GD01-107",
@@ -986,7 +1008,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     },
     {
       "id": "βbeta-GD01-118",
@@ -1001,7 +1023,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-08-29T10:29:27.700356Z"
+      "checkedAt": "2026-08-29T10:44:34.114784Z"
     }
   ]
 }
