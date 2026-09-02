@@ -340,7 +340,9 @@
     "urls": [
       "https://tier-one.jp/view/category/gcg?sort=price_high",
       "https://tier-one.jp/view/category/gcggd",
-      "https://tier-one.jp/view/category/gcglm"
+      "https://tier-one.jp/view/category/gcglm",
+      "https://tier-one.jp/view/category/gcglmgd",
+      "https://tier-one.jp/view/category/gcglmst"
     ],
     "enabled": true,
     "adapter": "catalog_exact",
@@ -358,7 +360,13 @@
       "beta": [
         "https://tier-one.jp/view/category/gcg"
       ]
-    }
+    },
+    "betaScopedUrlContains": [
+      "/view/category/gcglm",
+      "/view/category/gcglmgd",
+      "/view/category/gcglmst"
+    ],
+    "notes": "Tier OneのVer.βカテゴリは商品行にVer.βが出ないため、β専用カテゴリURL＋カード番号＋plusレアリティ＋パラレルを同一商品行で照合。価格/在庫/リンクは同一商品行のみ採用。"
   },
   {
     "id": "mintmall",
