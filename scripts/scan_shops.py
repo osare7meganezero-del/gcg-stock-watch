@@ -30,11 +30,11 @@ TIMEOUT = 20
 TRANSITION_HOURS = 24
 DEFAULT_FRESH_HOURS = 6
 DEFAULT_MIN_DELAY = 4.0
-MATCHER_VERSION = "v1.13-tierone-beta-scope-1"
+MATCHER_VERSION = "v1.14-ntc-winners-1"
 
 repo = os.environ.get("GITHUB_REPOSITORY", "your-account/gcg-stock-watch")
 UA = (
-    f"GCG-Stock-Watch/1.12 (+https://github.com/{repo}; "
+    f"GCG-Stock-Watch/1.14 (+https://github.com/{repo}; "
     "low-rate availability monitor; no purchase automation)"
 )
 
@@ -264,11 +264,47 @@ def _beta_scope_from_url(page_url: str, shop: dict) -> bool:
     return bool(page_url and any(marker and marker in page_url for marker in (shop.get("betaScopedUrlContains") or [])))
 
 
+def _ntc_scope_from_url(page_url: str, shop: dict) -> bool:
+    """True only for shop-configured categories dedicated to Newtype Challenge promos."""
+    return bool(page_url and any(marker and marker in page_url for marker in (shop.get("ntcScopedUrlContains") or [])))
+
+
+def ntc_winner_matches(text: str, card: dict, shop: dict, page_url: str = "") -> bool:
+    """Match an NTC winner promo without borrowing identity from normal/other parallel variants.
+
+    The winner card code itself is unique within each Newtype Challenge mission.  On
+    generic catalog/search pages we therefore require exact card code plus an explicit
+    Newtype Challenge marker in the *same candidate product block*.  On audited NTC-only
+    category URLs (Cardland/Mercard/Tier One), exact card identity in that category is
+    sufficient because normal variants are outside the category.
+    """
+    if card.get("group") != "NTC優勝":
+        return False
+    t = compact(text)
+    adapter = shop.get("adapter", "")
+    code = compact(card.get("code", ""))
+    names = [card.get("name", "")] + list(card.get("aliases") or [])
+    name_tokens = [compact(x) for x in names if x]
+    if adapter in ("cardland_exact", "torecolo_exact"):
+        identity = any(x and x in t for x in name_tokens)
+    else:
+        identity = bool(code and code in t)
+    if not identity:
+        return False
+    if _ntc_scope_from_url(page_url, shop):
+        return True
+    ntc_markers = ("ニュータイプチャレンジ", "newtypechallenge", "newtype challenge")
+    return any(compact(x) in t for x in ntc_markers)
+
+
 def shop_specific_matches(text: str, card: dict, shop: dict, page_url: str = "") -> bool:
     """Strict alternatives for shops whose catalog needs shop/category context."""
     adapter = shop.get("adapter", "")
     t = compact(text)
     name = compact(card.get("name", ""))
+
+    if card.get("group") == "NTC優勝":
+        return ntc_winner_matches(text, card, shop, page_url)
 
     # Tier One's Limited BOX category product rows identify the exact card by
     # code + plus-rarity + パラレル, while the `Ver.β` label lives in the category
@@ -429,8 +465,12 @@ def parse_page_for_card(html: str, page_url: str, card: dict, shop: dict | None 
     code = card["code"]
     candidates = []
     special_adapter = shop.get("adapter") in ("cardland_exact", "torecolo_exact")
-    needle = card.get("name", "") if special_adapter else code
-    for node in soup.find_all(string=lambda s: isinstance(s, str) and needle in s):
+    if special_adapter:
+        needles = [x for x in ([card.get("name", "")] + list(card.get("aliases") or [])) if x]
+        string_matches = lambda value: isinstance(value, str) and any(n in value for n in needles)
+    else:
+        string_matches = lambda value: isinstance(value, str) and code in value
+    for node in soup.find_all(string=string_matches):
         el = node.parent
         for depth in range(10):
             if el is None:
@@ -439,7 +479,11 @@ def parse_page_for_card(html: str, page_url: str, card: dict, shop: dict | None 
             if len(text) > 5000:
                 break
 
-            identity_present = (compact(card.get("name", "")) in compact(text)) if special_adapter else (compact(code) in compact(text))
+            if special_adapter:
+                identity_tokens = [compact(x) for x in ([card.get("name", "")] + list(card.get("aliases") or [])) if x]
+                identity_present = any(tok and tok in compact(text) for tok in identity_tokens)
+            else:
+                identity_present = compact(code) in compact(text)
             sig = stock_signal_for_shop(text, shop) if identity_present else "unknown"
             exact = shop_specific_matches(text, card, shop, page_url) if identity_present else False
             coherent = candidate_scope_is_coherent(text, card, shop) if identity_present else False
@@ -466,7 +510,12 @@ def parse_page_for_card(html: str, page_url: str, card: dict, shop: dict | None 
         if shop.get("allowTextFallback"):
             page_text = norm(soup.get_text(" ", strip=True))
             if shop_specific_matches(page_text, card, shop, page_url) and candidate_scope_is_coherent(page_text, card, shop):
-                anchor = card.get("name", "") if special_adapter else code
+                if special_adapter:
+                    anchors = [x for x in ([card.get("name", "")] + list(card.get("aliases") or [])) if x]
+                    positions = [(page_text.find(a), a) for a in anchors if page_text.find(a) >= 0]
+                    anchor = min(positions)[1] if positions else (anchors[0] if anchors else "")
+                else:
+                    anchor = code
                 idx = page_text.find(anchor)
                 if idx < 0:
                     idx = 0
