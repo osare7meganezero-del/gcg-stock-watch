@@ -30,7 +30,7 @@ TIMEOUT = 20
 TRANSITION_HOURS = 24
 DEFAULT_FRESH_HOURS = 6
 DEFAULT_MIN_DELAY = 4.0
-MATCHER_VERSION = "v1.12-variant-strict-1"
+MATCHER_VERSION = "v1.13-tierone-beta-scope-1"
 
 repo = os.environ.get("GITHUB_REPOSITORY", "your-account/gcg-stock-watch")
 UA = (
@@ -259,11 +259,26 @@ def exact_card_matches(text: str, card: dict) -> bool:
 
 
 
-def shop_specific_matches(text: str, card: dict, shop: dict) -> bool:
-    """Strict alternatives for shops whose catalog omits the full card code in visible text."""
+def _beta_scope_from_url(page_url: str, shop: dict) -> bool:
+    """Return True only for shop-configured category URLs that are exclusively Ver.β inventory."""
+    return bool(page_url and any(marker and marker in page_url for marker in (shop.get("betaScopedUrlContains") or [])))
+
+
+def shop_specific_matches(text: str, card: dict, shop: dict, page_url: str = "") -> bool:
+    """Strict alternatives for shops whose catalog needs shop/category context."""
     adapter = shop.get("adapter", "")
     t = compact(text)
     name = compact(card.get("name", ""))
+
+    # Tier One's Limited BOX category product rows identify the exact card by
+    # code + plus-rarity + パラレル, while the `Ver.β` label lives in the category
+    # heading rather than each row.  Trust that beta context only on explicitly
+    # configured beta-only category URLs; price/stock/link still come exclusively
+    # from the matched product row.
+    if card.get("group") == "β版パラレル" and _beta_scope_from_url(page_url, shop):
+        code = compact(card.get("code", ""))
+        if code and code in t and rarity_matches(text, card) and "パラレル" in t:
+            return True
     if adapter == "cardland_exact":
         if not name or name not in t:
             return False
@@ -426,7 +441,7 @@ def parse_page_for_card(html: str, page_url: str, card: dict, shop: dict | None 
 
             identity_present = (compact(card.get("name", "")) in compact(text)) if special_adapter else (compact(code) in compact(text))
             sig = stock_signal_for_shop(text, shop) if identity_present else "unknown"
-            exact = shop_specific_matches(text, card, shop) if identity_present else False
+            exact = shop_specific_matches(text, card, shop, page_url) if identity_present else False
             coherent = candidate_scope_is_coherent(text, card, shop) if identity_present else False
 
             if exact and coherent and sig != "unknown":
@@ -450,13 +465,13 @@ def parse_page_for_card(html: str, page_url: str, card: dict, shop: dict | None 
         # text fallback after its markup has been audited.
         if shop.get("allowTextFallback"):
             page_text = norm(soup.get_text(" ", strip=True))
-            if shop_specific_matches(page_text, card, shop) and candidate_scope_is_coherent(page_text, card, shop):
+            if shop_specific_matches(page_text, card, shop, page_url) and candidate_scope_is_coherent(page_text, card, shop):
                 anchor = card.get("name", "") if special_adapter else code
                 idx = page_text.find(anchor)
                 if idx < 0:
                     idx = 0
                 window = page_text[max(0, idx - 350): idx + 900]
-                if (shop_specific_matches(window, card, shop)
+                if (shop_specific_matches(window, card, shop, page_url)
                         and candidate_scope_is_coherent(window, card, shop)
                         and not candidate_is_excluded(window, shop)):
                     sig = stock_signal_for_shop(window, shop)
