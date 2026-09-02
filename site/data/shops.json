@@ -10,7 +10,14 @@
       "https://www.bigweb.co.jp/ja/products/gundamgcg/cardViewer/3518663",
       "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8789&is_box=0",
       "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8906&is_box=0",
-      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=877"
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=877",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD01-067",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD02-069",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD02-036",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD01-065",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=ST07-005",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD03-050",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD04-066"
     ],
     "enabled": true,
     "adapter": "catalog_exact",
@@ -22,9 +29,10 @@
     "monitorStatus": "verified",
     "supportedGroups": [
       "LR++",
-      "β版パラレル"
+      "β版パラレル",
+      "NTC優勝"
     ],
-    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / NTC優勝7種はカード番号検索ページ内の「ニュータイプチャレンジ」商品ブロックだけ厳密一致。通常/LR+等の同番号別商品は除外。",
     "probeUrls": {
       "lrpp": [
         "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8906"
@@ -119,7 +127,8 @@
     "urls": [
       "https://www.gun-happy.com/",
       "https://www.gun-happy.com/view/category/parallel",
-      "https://www.gun-happy.com/view/category/ct18"
+      "https://www.gun-happy.com/view/category/ct18",
+      "https://www.gun-happy.com/view/category/promo?sort=price_high"
     ],
     "enabled": true,
     "adapter": "catalog_paged",
@@ -127,9 +136,10 @@
     "monitorStatus": "verified",
     "supportedGroups": [
       "LR++",
-      "β版パラレル"
+      "β版パラレル",
+      "NTC優勝"
     ],
-    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / プロモカテゴリのNTC商品をカード番号＋ニュータイプチャレンジ表記で厳密一致。",
     "probeUrls": {
       "lrpp": [
         "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend"
@@ -245,7 +255,8 @@
     "urls": [
       "https://www.mercardgundam.jp/product-group/47?num=60",
       "https://www.mercardgundam.jp/product-group/2",
-      "https://www.mercardgundam.jp/product-list/5"
+      "https://www.mercardgundam.jp/product-list/5",
+      "https://www.mercardgundam.jp/product-group/37"
     ],
     "enabled": true,
     "adapter": "catalog_exact",
@@ -254,9 +265,10 @@
     "monitorStatus": "verified",
     "supportedGroups": [
       "LR++",
-      "β版パラレル"
+      "β版パラレル",
+      "NTC優勝"
     ],
-    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / ニュータイプチャレンジ専用カテゴリ(product-group/37)をNTC優勝の監視対象に追加。",
     "probeUrls": {
       "lrpp": [
         "https://www.mercardgundam.jp/product/2483"
@@ -264,7 +276,10 @@
       "beta": [
         "https://www.mercardgundam.jp/product/9"
       ]
-    }
+    },
+    "ntcScopedUrlContains": [
+      "/product-group/37"
+    ]
   },
   {
     "id": "hobbystation",
@@ -279,9 +294,10 @@
     "monitorStatus": "verified",
     "supportedGroups": [
       "LR++",
-      "β版パラレル"
+      "β版パラレル",
+      "NTC優勝"
     ],
-    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / 全商品ページでNTC優勝商品をカード番号＋ニュータイプチャレンジ表記で厳密一致。",
     "probeUrls": {
       "lrpp": [
         "https://www.hobbystation-single.jp/gc/product/list"
@@ -342,7 +358,8 @@
       "https://tier-one.jp/view/category/gcggd",
       "https://tier-one.jp/view/category/gcglm",
       "https://tier-one.jp/view/category/gcglmgd",
-      "https://tier-one.jp/view/category/gcglmst"
+      "https://tier-one.jp/view/category/gcglmst",
+      "https://tier-one.jp/view/category/gcgpnc"
     ],
     "enabled": true,
     "adapter": "catalog_exact",
@@ -350,9 +367,10 @@
     "monitorStatus": "verified",
     "supportedGroups": [
       "LR++",
-      "β版パラレル"
+      "β版パラレル",
+      "NTC優勝"
     ],
-    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / ニュータイプチャレンジ専用カテゴリ(gcgpnc)をNTC優勝の監視対象に追加。",
     "probeUrls": {
       "lrpp": [
         "https://tier-one.jp/view/item/000000016218"
@@ -366,7 +384,10 @@
       "/view/category/gcglmgd",
       "/view/category/gcglmst"
     ],
-    "notes": "Tier OneのVer.βカテゴリは商品行にVer.βが出ないため、β専用カテゴリURL＋カード番号＋plusレアリティ＋パラレルを同一商品行で照合。価格/在庫/リンクは同一商品行のみ採用。"
+    "notes": "Tier OneのVer.βカテゴリは商品行にVer.βが出ないため、β専用カテゴリURL＋カード番号＋plusレアリティ＋パラレルを同一商品行で照合。価格/在庫/リンクは同一商品行のみ採用。",
+    "ntcScopedUrlContains": [
+      "/view/category/gcgpnc"
+    ]
   },
   {
     "id": "mintmall",
@@ -395,7 +416,8 @@
       "https://www.cardland-kamata.com/product-list/897",
       "https://www.cardland-kamata.com/product-list/906",
       "https://www.cardland-kamata.com/product-list/917",
-      "https://www.cardland-kamata.com/product-list/760"
+      "https://www.cardland-kamata.com/product-list/760",
+      "https://www.cardland-kamata.com/product-list/817"
     ],
     "enabled": true,
     "adapter": "cardland_exact",
@@ -403,9 +425,10 @@
     "monitorStatus": "verified",
     "supportedGroups": [
       "LR++",
-      "β版パラレル"
+      "β版パラレル",
+      "NTC優勝"
     ],
-    "auditNote": "代表LR++はGD05一覧で在庫数/在庫なしを確認。β版はウイングガンダムのVer.β/パラレル商品を通常β版と分離して確認。",
+    "auditNote": "代表LR++はGD05一覧で在庫数/在庫なしを確認。β版はウイングガンダムのVer.β/パラレル商品を通常β版と分離して確認。 / ニュータイプチャレンジPR専用カテゴリ(product-list/817)をNTC優勝の監視対象に追加。",
     "probeUrls": {
       "lrpp": [
         "https://www.cardland-kamata.com/product-list/759"
@@ -414,7 +437,10 @@
         "https://www.cardland-kamata.com/product/34537"
       ]
     },
-    "notes": "竜のしっぽから変更。カード名＋収録＋LR++、β版は「Ver.β/パラレル」を専用照合。通常版・Ver.β/LRとは分離。"
+    "notes": "竜のしっぽから変更。カード名＋収録＋LR++、β版は「Ver.β/パラレル」を専用照合。通常版・Ver.β/LRとは分離。",
+    "ntcScopedUrlContains": [
+      "/product-list/817"
+    ]
   },
   {
     "id": "dorasuta",
