@@ -53,6 +53,35 @@ class VariantIntegrityTests(unittest.TestCase):
         self.assertEqual(hit.price, 129800)
         self.assertEqual(hit.url, 'https://shop.example/products/beta-118')
 
+
+    def test_tierone_beta_category_scope_can_prove_beta_variant_without_product_level_beta_label(self):
+        card = next(c for c in CARDS if c['id'] == 'βbeta-GD01-026')
+        shop = {
+            'id':'tierone','adapter':'catalog_exact','negativeWins':True,
+            'betaScopedUrlContains':['/view/category/gcglm','/view/category/gcglmgd','/view/category/gcglmst']
+        }
+        html = '''
+        <main>
+          <h2>リミテッドBOX Ver.β</h2>
+          <article class="item">
+            <a href="/view/item/000000010453">〖R+〗ザクⅡ（シャア・アズナブル機）（パラレル）《GD01-026》〖GCG〗</a>
+            <span>￥148,000（税込）</span>
+            <span>在庫数:1</span>
+            <button>カートに入れる</button>
+          </article>
+          <article class="item">
+            <a href="/view/item/normal">〖R〗ザクⅡ（シャア・アズナブル機）《GD01-026》〖GCG〗</a>
+            <span>￥80（税込）</span><span>在庫数:18</span>
+          </article>
+        </main>
+        '''
+        hit = scan.parse_page_for_card(html, 'https://tier-one.jp/view/category/gcglm', card, shop)
+        self.assertTrue(hit.found)
+        self.assertEqual(hit.availability, 'in_stock')
+        self.assertEqual(hit.stock, 1)
+        self.assertEqual(hit.price, 148000)
+        self.assertEqual(hit.url, 'https://tier-one.jp/view/item/000000010453')
+
     def test_torecolo_beta_requires_original_series_prefix(self):
         card = {'name':'ウイングガンダム','code':'ST02-001','targetSet':'Ver.β','rarity':'LR+','group':'β版パラレル'}
         shop = {'adapter':'torecolo_exact'}
