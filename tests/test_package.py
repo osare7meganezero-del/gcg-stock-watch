@@ -7,9 +7,10 @@ ROOT = Path(__file__).resolve().parents[1]
 class PackageTests(unittest.TestCase):
     def test_card_counts(self):
         cards=json.loads((ROOT/'config/cards.json').read_text(encoding='utf-8'))
-        self.assertEqual(len(cards),25)
+        self.assertEqual(len(cards),32)
         self.assertEqual(sum(c['group']=='LR++' for c in cards),13)
         self.assertEqual(sum(c['group']=='β版パラレル' for c in cards),12)
+        self.assertEqual(sum(c['group']=='NTC優勝' for c in cards),7)
 
     def test_shop_counts(self):
         shops=json.loads((ROOT/'config/shops.json').read_text(encoding='utf-8'))
@@ -25,7 +26,7 @@ class PackageTests(unittest.TestCase):
         self.assertNotIn('/api/cards', html)
         self.assertNotIn('/api/refresh', html)
         self.assertIn("fetch('./data/state.json?", html)
-        self.assertIn('gcg-xserver-layout-v19', html)
+        self.assertIn('gcg-xserver-layout-v114', html)
         self.assertIn('shopCount', html)
         self.assertIn('inventories', html)
 
