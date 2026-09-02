@@ -1,53 +1,54 @@
 {
   "schema": 2,
+  "matcherVersion": "v1.12-variant-strict-1",
   "cards": {
     "LRpp-GD01-001": {
       "shops": {
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 148000,
           "url": "https://www.c-labo-online.jp/product-list/3136/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ガンダム【LR++】GD01-001〈1〉 148,000 円 (税込) 在庫なし"
+        },
+        "gunhappy": {
+          "availability": "in_stock",
+          "transition_from": "unknown",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
+          "stock": 1,
+          "price": 158000,
+          "url": "https://www.gun-happy.com/view/item/000000000003",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
+          "evidence": "【スーパーパラレル】ガンダム「LR++」(青)[GD01-001] ¥158,000 (税込) 在庫 1 個 カートに入れる"
         },
         "tierone": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 128000,
           "url": "https://tier-one.jp/view/item/000000016533?category_page_id=gcg",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "GD01 Newtype Rising 〔状態A-〕【LR++】ガンダム(スーパーパラレル)《GD01-001》【GCG】 ¥128,000 (税込) 在庫数:1 数量 1 個"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 129980,
           "url": "https://www.cardland-kamata.com/product-list/818",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンダム [ GD01/LR++ ] 129,980 円 (税込) 在庫なし"
-        },
-        "gunhappy": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T21:56:59.052645Z",
-          "stock": 1,
-          "price": 158000,
-          "url": "https://www.gun-happy.com/view/item/000000000003",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "【スーパーパラレル】ガンダム「LR++」(青)[GD01-001] ¥158,000 (税込) 在庫 1 個 カートに入れる"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD01-067": {
@@ -55,58 +56,48 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 69800,
           "url": "https://www.c-labo-online.jp/product-list/3136/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ガンダム・エアリアル(改修型)【LR++】GD01-067〈1〉 69,800 円 (税込) 在庫なし"
         },
         "tierone": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 56800,
           "url": "https://tier-one.jp/view/item/000000016555?category_page_id=gcg",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "GD01 Newtype Rising 〔状態A-〕【LR++】ガンダム・エアリアル(改修型)(スーパーパラレル)《GD01-067》【GCG】 ¥56,800 (税込) 在庫数:1 数量 1 個"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 69980,
           "url": "https://www.cardland-kamata.com/product-list/818",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンダム・エアリアル(改修型) [ GD01/LR++ ] 69,980 円 (税込) 在庫なし"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 2,
           "price": 62000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/291",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンダム・エアリアル(改修型)(LR++)(GCG/GD01-067LR++) ¥62,000 1 2 /2 カートに追加"
-        },
-        "gunhappy": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T21:56:59.052645Z",
-          "stock": 2,
-          "price": 198000,
-          "url": "https://www.gun-happy.com/view/item/000000000354",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "SOLD OUT 【状態A-】【スーパーパラレル】GQuuuuuuX(オメガ・サイコミュ起動時)「LR++」(赤)[GD02-038] ¥32,800 (税込) 在庫 0 個 売り切れ SOLD OUT 【未開封】EXベース「P」(EXベース)EXBP-030[EVX09] ¥17,800 (税込) 在庫 0 個 売り切れ SOLD OUT 【未開封】ガンダム・エアリアル(改修型)「P」「P」(白)[GD01-067] ニュータイプチャレンジ 2025 MISSION1優勝記念品 ¥198,000 (税込) 在庫 0 個 売り切れ 【スーパーパラレル】ガンダム「LR++」(青)[GD01-001] ¥158,000 (税込) 在庫 1 個 カートに入れる SOLD OUT ガンハッピー補給コンテナ福箱 100,000円 ¥100,000 (税込) 在庫 0 個 売り切れ SOLD OUT ガンハッピー補給コンテナ福箱 50,000円 ¥50,000 (税込) 在庫 0 個 売り切れ SOLD OUT ガンハッピー補給コンテナ福箱 30,000円 ¥30,000 (税込) 在庫 0 個 "
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD02-038": {
@@ -114,48 +105,38 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 59800,
           "url": "https://www.c-labo-online.jp/product-list/3204/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】GQuuuuuuX(オメガ・サイコミュ起動時)【LR++】GD02-038〈1〉 59,800 円 (税込) 在庫なし"
         },
         "gunhappy": {
           "availability": "out_of_stock",
-          "transition_from": "in_stock",
-          "changed_at": "2026-09-01T06:51:29.796187Z",
+          "transition_from": "unknown",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 32800,
           "url": "https://www.gun-happy.com/view/item/000000002459",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【状態A-】【スーパーパラレル】GQuuuuuuX(オメガ・サイコミュ起動時)「LR++」(赤)[GD02-038] ¥32,800 (税込) 在庫 0 個 売り切れ"
-        },
-        "193net": {
-          "availability": "out_of_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 0,
-          "price": 199980,
-          "url": "https://193tcg.com/products/detail/261578",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "全て > ガンダムカードゲーム 1341件 の商品がございます。 価格が高い順 価格が低い順 新着順 レアリティ順 40件 60件 80件 在庫切れ↓ 1 2 3 4 5 ... 次へ 最後へ ※クレジットカード支払いのみ Zガンダム (未開封)(ニュータイプチャレンジ2025ミッション2) 【GD02-069LRP】 ¥199,980 (税込) ※クレジットカード支払いのみ《※日本橋店併用商品》 ユニコーンガンダム(覚醒)(ニュータイプチャレンジ 2026 MISSION 4) 【GCG-GD04-066LR】 ¥149,980 (税込) 【未開封品】ガンダムカードゲーム リミテッドBOX Ver.β ¥119,980 (税込) ※クレジットカード支払いのみ アマテ・ユズリハ(マチュ) (WORLD CHAMPIONSHIPS 26-27 Season 1上位入賞記念品) (未開封) 【ST06-009CP】 ¥99,980 (税込) ※クレジットカード支払いのみ《※日本橋店併用商品》 ガンダムデュナメス (未開封)(ニュータイプチャレンジ2026ミッション2) 【ST07-005L"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 3,
           "price": 54980,
           "url": "https://www.cardland-kamata.com/product-list/832",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "GQuuuuuuX(オメガ・サイコミュ起動時) [ GD02/LR++ ] 54,980 円 (税込) 在庫数3枚"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD02-054": {
@@ -163,38 +144,38 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 69800,
           "url": "https://www.c-labo-online.jp/product-list/3204/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ガンダム・バルバトス(第1形態)【LR++】GD02-054〈1〉 69,800 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 79980,
           "url": "https://www.cardland-kamata.com/product-list/832",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンダム・バルバトス(第1形態) [ GD02/LR++ ] 79,980 円 (税込) 在庫数1枚"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 67000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/784",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンダム・バルバトス(第1形態)(LR++)(GCG/GD02-054LR++) ¥67,000 1 /1 カートに追加"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD03-017": {
@@ -202,38 +183,38 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 39800,
           "url": "https://www.c-labo-online.jp/product-list/3295/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ケンプファー〔金縁〕【LR++】GD03-017〈1〉 39,800 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 39980,
           "url": "https://www.cardland-kamata.com/product-list/897",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ケンプファー [ GD03/LR++ ] 39,980 円 (税込) 在庫数1枚"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 40000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/1276",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ケンプファー(LR++)(GCG/GD03-017LR++) ¥40,000 1 /1 カートに追加"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD03-035": {
@@ -241,48 +222,48 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 59800,
           "url": "https://www.c-labo-online.jp/product-list/3295/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】GFreD〔金縁〕【LR++】GD03-035〈1〉 59,800 円 (税込) 在庫なし"
+        },
+        "tierone": {
+          "availability": "in_stock",
+          "transition_from": "unknown",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
+          "stock": 1,
+          "price": 57800,
+          "url": "https://tier-one.jp/view/item/000000013973?category_page_id=gcg",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
+          "evidence": "GD03 Steel Requiem 【LR++】GFreD(スーパーパラレル)《GD03-035》 ¥57,800 (税込) 在庫数:1 数量 1 個"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 59980,
           "url": "https://www.cardland-kamata.com/product-list/897",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "GFreD [ GD03/LR++ ] 59,980 円 (税込) 在庫なし"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 50000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/1275",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "GFreD(LR++)(GCG/GD03-035LR++) ¥50,000 1 /1 カートに追加"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T21:56:59.052645Z",
-          "stock": 1,
-          "price": 57800,
-          "url": "https://tier-one.jp/view/item/000000013973?category_page_id=gcg",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "GD03 Steel Requiem 【LR++】GFreD(スーパーパラレル)《GD03-035》 ¥57,800 (税込) 在庫数:1 数量 1 個"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD04-017": {
@@ -290,48 +271,48 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 49800,
           "url": "https://www.c-labo-online.jp/product-list/3373/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ジオング〔金縁〕【LR++】GD04-017〈1〉 49,800 円 (税込) 在庫なし"
         },
         "tierone": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 2,
           "price": 49800,
           "url": "https://tier-one.jp/view/item/000000015207?category_page_id=gcg",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "GD04 Phantom Aria 【LR++】ジオング(スーパーパラレル)《GD04-017》 ¥49,800 (税込) 在庫数:2 数量 1 2 個"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 49980,
           "url": "https://www.cardland-kamata.com/product-list/906",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ジオング [ GD04/LR++ ] 49,980 円 (税込) 在庫数1枚"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 54000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/1788",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ジオング(LR++)(GCG/GD04-017LR++) ¥54,000 1 /1 カートに追加"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD04-050": {
@@ -339,39 +320,38 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 148000,
           "url": "https://www.c-labo-online.jp/product-list/3373/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】デスティニーガンダム〔金縁〕【LR++】GD04-050〈1〉 148,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 149980,
           "url": "https://www.cardland-kamata.com/product-list/906",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "デスティニーガンダム [ GD04/LR++ ] 149,980 円 (税込) 在庫なし"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 140000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/1789",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "デスティニーガンダム(LR++)(GCG/GD04-050LR++) ¥140,000 1 /1 カートに追加"
         }
       },
       "aggregate": {
         "availability": "in_stock",
-        "transition_from": "out_of_stock",
-        "changed_at": "2026-08-30T05:14:43.923835Z",
-        "last_sold_url": "https://www.c-labo-online.jp/product-list/3373/0/photo?Submit=1&num=120&sort=price-desc"
+        "transition_from": "unknown",
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD05-002": {
@@ -379,48 +359,29 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 448000,
           "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ストライクフリーダムガンダム〔金縁〕【LR++】GD05-002〈2〉 448,000 円 (税込) 在庫なし"
-        },
-        "193net": {
-          "availability": "out_of_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 0,
-          "price": 199980,
-          "url": "https://193tcg.com/products/detail/293341",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "全て > ガンダムカードゲーム 1341件 の商品がございます。 価格が高い順 価格が低い順 新着順 レアリティ順 40件 60件 80件 在庫切れ↓ 1 2 3 4 5 ... 次へ 最後へ ※クレジットカード支払いのみ Zガンダム (未開封)(ニュータイプチャレンジ2025ミッション2) 【GD02-069LRP】 ¥199,980 (税込) ※クレジットカード支払いのみ《※日本橋店併用商品》 ユニコーンガンダム(覚醒)(ニュータイプチャレンジ 2026 MISSION 4) 【GCG-GD04-066LR】 ¥149,980 (税込) 【未開封品】ガンダムカードゲーム リミテッドBOX Ver.β ¥119,980 (税込) ※クレジットカード支払いのみ アマテ・ユズリハ(マチュ) (WORLD CHAMPIONSHIPS 26-27 Season 1上位入賞記念品) (未開封) 【ST06-009CP】 ¥99,980 (税込) ※クレジットカード支払いのみ《※日本橋店併用商品》 ガンダムデュナメス (未開封)(ニュータイプチャレンジ2026ミッション2) 【ST07-005L"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 30,
-          "price": 99800,
-          "url": "https://tier-one.jp/view/item/000000016236?category_page_id=gcggd",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "GD05 Freedom Ascension 【LR++】マスターガンダム(スーパーパラレル)《GD05-033》 ¥99,800 (税込) 在庫数:1 数量 1 個 GD05 Freedom Ascension 【SP】EXリソース[セイラ・マス](スペシャル)《EXR-004》 ¥27,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[フォウ・ムラサメ](スペシャル)《EXR-005》 ¥14,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ギギ・アンダルシア](スペシャル)《EXR-006》 ¥31,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ミオリネ・レンブラン](スペシャル)《EXR-010》 ¥49,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[マチュ&ニャアン&シュウジ](スペシャル)"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 399980,
           "url": "https://www.cardland-kamata.com/product-list/917",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ストライクフリーダムガンダム [ GD05/LR++ ] 399,980 円 (税込) 在庫なし"
         }
       },
       "aggregate": {
-        "availability": "in_stock",
+        "availability": "out_of_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z",
+        "last_sold_url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc"
       }
     },
     "LRpp-GD05-017": {
@@ -428,38 +389,28 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 248000,
           "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】νガンダム〔金縁〕【LR++】GD05-017〈2〉 248,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 2,
           "price": 279980,
           "url": "https://www.cardland-kamata.com/product-list/917",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "νガンダム [ GD05/LR++ ] 279,980 円 (税込) 在庫数2枚"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-29T10:44:34.114784Z",
-          "stock": 30,
-          "price": 99800,
-          "url": "https://tier-one.jp/view/item/000000016239?category_page_id=gcggd",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "GD05 Freedom Ascension 【LR++】マスターガンダム(スーパーパラレル)《GD05-033》 ¥99,800 (税込) 在庫数:1 数量 1 個 GD05 Freedom Ascension 【SP】EXリソース[セイラ・マス](スペシャル)《EXR-004》 ¥27,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[フォウ・ムラサメ](スペシャル)《EXR-005》 ¥14,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ギギ・アンダルシア](スペシャル)《EXR-006》 ¥31,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ミオリネ・レンブラン](スペシャル)《EXR-010》 ¥49,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[マチュ&ニャアン&シュウジ](スペシャル)"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD05-033": {
@@ -467,39 +418,38 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 99800,
           "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】マスターガンダム〔金縁〕【LR++】GD05-033〈2〉 99,800 円 (税込) 在庫なし"
-        },
-        "cardland": {
-          "availability": "out_of_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 0,
-          "price": 129980,
-          "url": "https://www.cardland-kamata.com/product-list/917",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "マスターガンダム [ GD05/LR++ ] 129,980 円 (税込) 在庫なし"
         },
         "tierone": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-29T10:44:34.114784Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 99800,
           "url": "https://tier-one.jp/view/item/000000016216?category_page_id=gcg",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "GD05 Freedom Ascension 【LR++】マスターガンダム(スーパーパラレル)《GD05-033》 ¥99,800 (税込) 在庫数:1 数量 1 個"
+        },
+        "cardland": {
+          "availability": "out_of_stock",
+          "transition_from": "unknown",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
+          "stock": 0,
+          "price": 129980,
+          "url": "https://www.cardland-kamata.com/product-list/917",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
+          "evidence": "マスターガンダム [ GD05/LR++ ] 129,980 円 (税込) 在庫なし"
         }
       },
       "aggregate": {
         "availability": "in_stock",
-        "transition_from": "out_of_stock",
-        "changed_at": "2026-08-29T10:44:34.114784Z",
-        "last_sold_url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc"
+        "transition_from": "unknown",
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD05-049": {
@@ -507,38 +457,28 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 148000,
           "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】サザビー〔金縁〕【LR++】GD05-049〈2〉 148,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 149980,
           "url": "https://www.cardland-kamata.com/product-list/917",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "サザビー [ GD05/LR++ ] 149,980 円 (税込) 在庫数1枚"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-29T10:44:34.114784Z",
-          "stock": 30,
-          "price": 99800,
-          "url": "https://tier-one.jp/view/item/000000016247?category_page_id=gcggd",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "GD05 Freedom Ascension 【LR++】マスターガンダム(スーパーパラレル)《GD05-033》 ¥99,800 (税込) 在庫数:1 数量 1 個 GD05 Freedom Ascension 【SP】EXリソース[セイラ・マス](スペシャル)《EXR-004》 ¥27,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[フォウ・ムラサメ](スペシャル)《EXR-005》 ¥14,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ギギ・アンダルシア](スペシャル)《EXR-006》 ¥31,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ミオリネ・レンブラン](スペシャル)《EXR-010》 ¥49,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[マチュ&ニャアン&シュウジ](スペシャル)"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "LRpp-GD05-067": {
@@ -546,38 +486,29 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 278000,
           "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ウイングガンダムゼロ(EW版)〔金縁〕【LR++】GD05-067〈2〉 278,000 円 (税込) 在庫なし"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 30,
-          "price": 99800,
-          "url": "https://tier-one.jp/view/item/000000016253?category_page_id=gcggd",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "GD05 Freedom Ascension 【LR++】マスターガンダム(スーパーパラレル)《GD05-033》 ¥99,800 (税込) 在庫数:1 数量 1 個 GD05 Freedom Ascension 【SP】EXリソース[セイラ・マス](スペシャル)《EXR-004》 ¥27,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[フォウ・ムラサメ](スペシャル)《EXR-005》 ¥14,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ギギ・アンダルシア](スペシャル)《EXR-006》 ¥31,800 (税込) 在庫数:2 数量 1 2 個 GD05 Freedom Ascension 【SP】EXリソース[ミオリネ・レンブラン](スペシャル)《EXR-010》 ¥49,800 (税込) 在庫数:4 数量 1 2 3 4 個 GD05 Freedom Ascension 【SP】EXリソース[マチュ&ニャアン&シュウジ](スペシャル)"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 299980,
           "url": "https://www.cardland-kamata.com/product-list/917",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ウイングガンダムゼロ(EW版) [ GD05/LR++ ] 299,980 円 (税込) 在庫なし"
         }
       },
       "aggregate": {
-        "availability": "in_stock",
+        "availability": "out_of_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z",
+        "last_sold_url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc"
       }
     },
     "βbeta-ST01-001": {
@@ -585,29 +516,29 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 248000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ガンダム [ベータ版]【LR+】ST01-001〈β〉 248,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "out_of_stock",
-          "transition_from": "in_stock",
-          "changed_at": "2026-09-01T03:38:34.611328Z",
+          "transition_from": "unknown",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 299980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンダム [ Ver.β/パラレル ] 299,980 円 (税込) 在庫なし"
         }
       },
       "aggregate": {
         "availability": "out_of_stock",
-        "transition_from": "in_stock",
-        "changed_at": "2026-09-01T03:38:34.611328Z",
-        "last_sold_url": "https://www.cardland-kamata.com/product-list/760"
+        "transition_from": "unknown",
+        "changed_at": "2026-09-02T14:57:23.979623Z",
+        "last_sold_url": "https://www.c-labo-online.jp/product-list/3110"
       }
     },
     "βbeta-ST01-011": {
@@ -615,58 +546,28 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 148000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】スレッタ・マーキュリー [ベータ版]【C+】ST01-011〈β〉 148,000 円 (税込) 在庫なし"
-        },
-        "gunhappy": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 49,
-          "price": 118000,
-          "url": "https://www.gun-happy.com/view/item/000000000401?category_page_id=ct18",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "〈β版〉ザクII「C」(緑)[ST03-008] ¥180 (税込) 在庫 4 個 カートに入れる 〈β版〉ザクII(シャア・アズナブル機)「R」(緑)[GD01-026] ¥120 (税込) 在庫 2 個 カートに入れる 〈β版〉リック・ドム「U」(緑)[GD01-030] ¥120 (税込) 在庫 21 個 カートに入れる 〈β版〉覚悟の表れ「U」(青)[GD01-100] ¥380 (税込) 在庫 10 個 カートに入れる 〈β版〉ミカエリス「U」(白)[GD01-076] ¥80 (税込) 在庫 13 個 カートに入れる [未開封]β版BOX付属 ダメージカウンターダイス ※6個入りホワイト ¥3,480 (税込) 在庫 8 個 カートに入れる 〈β版〉バナージ・リンクス「U」(青)[GD01-088] ¥180 (税込) 在庫 14 個 カートに入れる 〈β版〉シャア・アズナブル「C」(緑)[ST03-011] ¥80 (税込) 在庫 22 個 カートに入れる 〈β版〉リディ・マーセナス「C」(青)[GD01-089] ¥80 (税込) 在庫 49 個 カートに入れる 〈β版"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 30,
-          "price": 148000,
-          "url": "https://tier-one.jp/view/item/000000010469?category_page_id=gcglm",
-          "confirmed_at": "2026-08-30T08:29:35.923565Z",
-          "evidence": "リミテッドBOX Ver.β gcglm 並び替え: 価格の低い順 価格の高い順 おすすめ順 新着順 リミテッドBOX Ver.β GDナンバー (45) リミテッドBOX Ver.β STナンバー (33) リミテッドBOX Ver.β トークン等 (7) 【R+】ザクII(シャア・アズナブル機)(パラレル)《GD01-026》【GCG】 ¥148,000 (税込) 在庫数:1 数量 1 個 【C+】リソース(パラレル)《R-001》【GCG】 ¥2,980 (税込) 在庫数:1 数量 1 個 【C】ガンダム(MA形態)《ST01-002》【GCG】 ¥20 (税込) 在庫数:12 数量 1 2 3 4 5 6 7 8 9 10 11 12 個 【C】ジム《ST01-005》【GCG】 ¥30 (税込) 在庫数:7 数量 1 2 3 4 5 6 7 個 【C】ガンダム・エアリアル(ビットオンフォーム)《ST01-007》【GCG】 ¥20 (税込) 在庫数:20 数量 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 個 【C】デミ"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 3,
           "price": 169980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "スレッタ・マーキュリー [ Ver.β/パラレル ] 169,980 円 (税込) 在庫数3枚"
-        },
-        "fukufuku": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 22,
-          "price": 240000,
-          "url": "https://gundam.fukufukutoreka.com/products/detail/12",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "エールストライクガンダム(LR+/ベータ版)(GCG/ST04-001LR+B) ¥240,000 1 /1 カートに追加 シャア・アズナブル(C+/ベータ版)(GCG/ST03-011C+B) ¥110,000 1 /1 カートに追加 リソース(C+/ベータ版)(GCG/R-001C+B) ¥3,000 1 2 3 4 5 /5 カートに追加 覚悟の表れ(U/ベータ版)(GCG/GD01-100UB) ¥600 1 2 3 4 /7 カートに追加 エールストライクガンダム(LR/ベータ版)(GCG/ST04-001LRB) ¥600 1 2 /2 カートに追加 ウイングガンダム(LR/ベータ版)(GCG/ST02-001LRB) ¥300 1 /1 カートに追加 溢れる慈愛(U/ベータ版)(GCG/GD01-118UB) ¥250 1 2 3 4 /20 カートに追加 リック・ドム(U/ベータ版)(GCG/GD01-030UB) ¥200 1 2 3 4 /9 カートに追加 ザクII(C/ベータ版)(GCG/ST03-008CB) ¥200 1 2 3 4 /8 カートに追加 ホワイ"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "βbeta-ST02-001": {
@@ -674,38 +575,28 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 898000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ウイングガンダム [ベータ版]【LR+】ST02-001〈β〉 898,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 599980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ウイングガンダム [ Ver.β/パラレル ] 599,980 円 (税込) 在庫なし"
-        },
-        "fukufuku": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-09-02T09:37:37.046736Z",
-          "stock": 22,
-          "price": 240000,
-          "url": "https://gundam.fukufukutoreka.com/products/detail/50",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "エールストライクガンダム(LR+/ベータ版)(GCG/ST04-001LR+B) ¥240,000 1 /1 カートに追加 シャア・アズナブル(C+/ベータ版)(GCG/ST03-011C+B) ¥110,000 1 /1 カートに追加 リソース(C+/ベータ版)(GCG/R-001C+B) ¥3,000 1 2 3 4 5 /5 カートに追加 覚悟の表れ(U/ベータ版)(GCG/GD01-100UB) ¥600 1 2 3 4 /7 カートに追加 エールストライクガンダム(LR/ベータ版)(GCG/ST04-001LRB) ¥600 1 2 /2 カートに追加 ウイングガンダム(LR/ベータ版)(GCG/ST02-001LRB) ¥300 1 /1 カートに追加 溢れる慈愛(U/ベータ版)(GCG/GD01-118UB) ¥250 1 2 3 4 /20 カートに追加 リック・ドム(U/ベータ版)(GCG/GD01-030UB) ¥200 1 2 3 4 /9 カートに追加 ザクII(C/ベータ版)(GCG/ST03-008CB) ¥200 1 2 3 4 /8 カートに追加 ホワイ"
         }
       },
       "aggregate": {
-        "availability": "in_stock",
-        "transition_from": "out_of_stock",
-        "changed_at": "2026-09-02T09:37:37.046736Z",
+        "availability": "out_of_stock",
+        "transition_from": "unknown",
+        "changed_at": "2026-09-02T14:57:23.979623Z",
         "last_sold_url": "https://www.c-labo-online.jp/product-list/3110"
       }
     },
@@ -714,58 +605,38 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 108000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】シャア・アズナブル [ベータ版]【C+】ST03-011〈β〉 108,000 円 (税込) 在庫なし"
-        },
-        "gunhappy": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 49,
-          "price": 118000,
-          "url": "https://www.gun-happy.com/view/item/000000000417?category_page_id=ct18",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "〈β版〉ザクII「C」(緑)[ST03-008] ¥180 (税込) 在庫 4 個 カートに入れる 〈β版〉ザクII(シャア・アズナブル機)「R」(緑)[GD01-026] ¥120 (税込) 在庫 2 個 カートに入れる 〈β版〉リック・ドム「U」(緑)[GD01-030] ¥120 (税込) 在庫 21 個 カートに入れる 〈β版〉覚悟の表れ「U」(青)[GD01-100] ¥380 (税込) 在庫 10 個 カートに入れる 〈β版〉ミカエリス「U」(白)[GD01-076] ¥80 (税込) 在庫 13 個 カートに入れる [未開封]β版BOX付属 ダメージカウンターダイス ※6個入りホワイト ¥3,480 (税込) 在庫 8 個 カートに入れる 〈β版〉バナージ・リンクス「U」(青)[GD01-088] ¥180 (税込) 在庫 14 個 カートに入れる 〈β版〉シャア・アズナブル「C」(緑)[ST03-011] ¥80 (税込) 在庫 22 個 カートに入れる 〈β版〉リディ・マーセナス「C」(青)[GD01-089] ¥80 (税込) 在庫 49 個 カートに入れる 〈β版"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 30,
-          "price": 148000,
-          "url": "https://tier-one.jp/view/item/000000010482?category_page_id=gcglm",
-          "confirmed_at": "2026-08-30T08:29:35.923565Z",
-          "evidence": "リミテッドBOX Ver.β gcglm 並び替え: 価格の低い順 価格の高い順 おすすめ順 新着順 リミテッドBOX Ver.β GDナンバー (45) リミテッドBOX Ver.β STナンバー (33) リミテッドBOX Ver.β トークン等 (7) 【R+】ザクII(シャア・アズナブル機)(パラレル)《GD01-026》【GCG】 ¥148,000 (税込) 在庫数:1 数量 1 個 【C+】リソース(パラレル)《R-001》【GCG】 ¥2,980 (税込) 在庫数:1 数量 1 個 【C】ガンダム(MA形態)《ST01-002》【GCG】 ¥20 (税込) 在庫数:12 数量 1 2 3 4 5 6 7 8 9 10 11 12 個 【C】ジム《ST01-005》【GCG】 ¥30 (税込) 在庫数:7 数量 1 2 3 4 5 6 7 個 【C】ガンダム・エアリアル(ビットオンフォーム)《ST01-007》【GCG】 ¥20 (税込) 在庫数:20 数量 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 個 【C】デミ"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 99980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "シャア・アズナブル [ Ver.β/パラレル ] 99,980 円 (税込) 在庫なし"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 110000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/91",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "シャア・アズナブル(C+/ベータ版)(GCG/ST03-011C+B) ¥110,000 1 /1 カートに追加"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "βbeta-ST04-001": {
@@ -773,38 +644,38 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 278000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】エールストライクガンダム [ベータ版]【LR+】ST04-001〈β〉 278,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 2,
           "price": 249980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "エールストライクガンダム [ Ver.β/パラレル ] 249,980 円 (税込) 在庫数2枚"
         },
         "fukufuku": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 1,
           "price": 240000,
           "url": "https://gundam.fukufukutoreka.com/products/detail/126",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "エールストライクガンダム(LR+/ベータ版)(GCG/ST04-001LR+B) ¥240,000 1 /1 カートに追加"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "βbeta-GD01-004": {
@@ -812,38 +683,29 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 34800,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ガンキャノン [ベータ版]【R+】GD01-004〈β〉 34,800 円 (税込) 在庫なし"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 30,
-          "price": 148000,
-          "url": "https://tier-one.jp/view/item/000000010489?category_page_id=gcglm",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "リミテッドBOX Ver.β gcglm 並び替え: 価格の低い順 価格の高い順 おすすめ順 新着順 リミテッドBOX Ver.β GDナンバー (45) リミテッドBOX Ver.β STナンバー (33) リミテッドBOX Ver.β トークン等 (7) 【R+】ザクII(シャア・アズナブル機)(パラレル)《GD01-026》【GCG】 ¥148,000 (税込) 在庫数:1 数量 1 個 【C】ガンダム(MA形態)《ST01-002》【GCG】 ¥20 (税込) 在庫数:12 数量 1 2 3 4 5 6 7 8 9 10 11 12 個 【C】ジム《ST01-005》【GCG】 ¥30 (税込) 在庫数:7 数量 1 2 3 4 5 6 7 個 【C】ガンダム・エアリアル(ビットオンフォーム)《ST01-007》【GCG】 ¥20 (税込) 在庫数:20 数量 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 個 【C】デミトレーナー《ST01-008》【GCG】 ¥20 (税込) 在庫数:16 数量 1 2 3 4 5 6 "
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 29980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンキャノン [ Ver.β/パラレル ] 29,980 円 (税込) 在庫なし"
         }
       },
       "aggregate": {
-        "availability": "in_stock",
+        "availability": "out_of_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z",
+        "last_sold_url": "https://www.c-labo-online.jp/product-list/3110"
       }
     },
     "βbeta-GD01-026": {
@@ -851,48 +713,18 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 148000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ザクII(シャア・アズナブル機) [ベータ版]【R+】GD01-026〈β〉 148,000 円 (税込) 在庫なし"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 30,
-          "price": 148000,
-          "url": "https://tier-one.jp/view/item/000000010453?category_page_id=gcglm",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "リミテッドBOX Ver.β gcglm 並び替え: 価格の低い順 価格の高い順 おすすめ順 新着順 リミテッドBOX Ver.β GDナンバー (45) リミテッドBOX Ver.β STナンバー (33) リミテッドBOX Ver.β トークン等 (7) 【R+】ザクII(シャア・アズナブル機)(パラレル)《GD01-026》【GCG】 ¥148,000 (税込) 在庫数:1 数量 1 個 【C】ガンダム(MA形態)《ST01-002》【GCG】 ¥20 (税込) 在庫数:12 数量 1 2 3 4 5 6 7 8 9 10 11 12 個 【C】ジム《ST01-005》【GCG】 ¥30 (税込) 在庫数:7 数量 1 2 3 4 5 6 7 個 【C】ガンダム・エアリアル(ビットオンフォーム)《ST01-007》【GCG】 ¥20 (税込) 在庫数:20 数量 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 個 【C】デミトレーナー《ST01-008》【GCG】 ¥20 (税込) 在庫数:16 数量 1 2 3 4 5 6 "
-        },
-        "cardland": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 36,
-          "price": 599980,
-          "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "[β版]リミテッドBOX Ver.β - カードランド秋葉原店 BANDAI CARDGAMES専門シングル通販サイト ガンダムカードゲーム/ONE PIECEカードゲーム/デジモンカードゲーム メニュー ログイン カート 検索 カテゴリ マイページ 商品検索 ご利用案内 メニュー 文字サイズ : ホーム ショッピングカート 新規登録 ログイン 特定商取引法表示 ご利用案内 お問い合わせ 初めてご利用のお客様へ ホーム > ガンダムカードゲーム > [β版]リミテッドBOX Ver.β [β版]リミテッドBOX Ver.β 表示順変更 表示数 : 60件 120件 在庫あり 並び順 : 選択してください おすすめ順 価格の安い順 価格の高い順 売れ筋順 絞り込む 閉じる 83 件 1 2 次 » 【10枚セット/foil】リソース [ Ver.β/C+ ] 59,980 円 (税込) 在庫数1枚 カートに入れる ガンダム [ Ver.β/パラレル ] 299,980 円 (税込) 在庫なし スレッタ・マーキュリー [ Ver.β/パラレル ] 169,980 円 (税込) 在庫数3枚 "
-        },
-        "fukufuku": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 22,
-          "price": 240000,
-          "url": "https://gundam.fukufukutoreka.com/products/detail/178",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "エールストライクガンダム(LR+/ベータ版)(GCG/ST04-001LR+B) ¥240,000 1 /1 カートに追加 シャア・アズナブル(C+/ベータ版)(GCG/ST03-011C+B) ¥110,000 1 /1 カートに追加 リソース(C+/ベータ版)(GCG/R-001C+B) ¥3,000 1 2 3 4 5 /5 カートに追加 覚悟の表れ(U/ベータ版)(GCG/GD01-100UB) ¥600 1 2 3 4 /7 カートに追加 エールストライクガンダム(LR/ベータ版)(GCG/ST04-001LRB) ¥600 1 2 /2 カートに追加 ウイングガンダム(LR/ベータ版)(GCG/ST02-001LRB) ¥300 1 /1 カートに追加 溢れる慈愛(U/ベータ版)(GCG/GD01-118UB) ¥250 1 2 3 4 /20 カートに追加 リック・ドム(U/ベータ版)(GCG/GD01-030UB) ¥200 1 2 3 4 /9 カートに追加 ザクII(C/ベータ版)(GCG/ST03-008CB) ¥200 1 2 3 4 /8 カートに追加 ホワイ"
         }
       },
       "aggregate": {
-        "availability": "in_stock",
+        "availability": "unknown",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "βbeta-GD01-070": {
@@ -900,48 +732,29 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 398000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ガンダム・エアリアル [ベータ版]【R+】GD01-070〈β〉 398,000 円 (税込) 在庫なし"
-        },
-        "tierone": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 30,
-          "price": 148000,
-          "url": "https://tier-one.jp/view/item/000000010506?category_page_id=gcglm",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "リミテッドBOX Ver.β gcglm 並び替え: 価格の低い順 価格の高い順 おすすめ順 新着順 リミテッドBOX Ver.β GDナンバー (45) リミテッドBOX Ver.β STナンバー (33) リミテッドBOX Ver.β トークン等 (7) 【R+】ザクII(シャア・アズナブル機)(パラレル)《GD01-026》【GCG】 ¥148,000 (税込) 在庫数:1 数量 1 個 【C】ガンダム(MA形態)《ST01-002》【GCG】 ¥20 (税込) 在庫数:12 数量 1 2 3 4 5 6 7 8 9 10 11 12 個 【C】ジム《ST01-005》【GCG】 ¥30 (税込) 在庫数:7 数量 1 2 3 4 5 6 7 個 【C】ガンダム・エアリアル(ビットオンフォーム)《ST01-007》【GCG】 ¥20 (税込) 在庫数:20 数量 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 個 【C】デミトレーナー《ST01-008》【GCG】 ¥20 (税込) 在庫数:16 数量 1 2 3 4 5 6 "
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 329980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ガンダム・エアリアル [ Ver.β/パラレル ] 329,980 円 (税込) 在庫なし"
-        },
-        "fukufuku": {
-          "availability": "in_stock",
-          "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
-          "stock": 22,
-          "price": 240000,
-          "url": "https://gundam.fukufukutoreka.com/products/detail/187",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
-          "evidence": "エールストライクガンダム(LR+/ベータ版)(GCG/ST04-001LR+B) ¥240,000 1 /1 カートに追加 シャア・アズナブル(C+/ベータ版)(GCG/ST03-011C+B) ¥110,000 1 /1 カートに追加 リソース(C+/ベータ版)(GCG/R-001C+B) ¥3,000 1 2 3 4 5 /5 カートに追加 覚悟の表れ(U/ベータ版)(GCG/GD01-100UB) ¥600 1 2 3 4 /7 カートに追加 エールストライクガンダム(LR/ベータ版)(GCG/ST04-001LRB) ¥600 1 2 /2 カートに追加 ウイングガンダム(LR/ベータ版)(GCG/ST02-001LRB) ¥300 1 /1 カートに追加 溢れる慈愛(U/ベータ版)(GCG/GD01-118UB) ¥250 1 2 3 4 /20 カートに追加 リック・ドム(U/ベータ版)(GCG/GD01-030UB) ¥200 1 2 3 4 /9 カートに追加 ザクII(C/ベータ版)(GCG/ST03-008CB) ¥200 1 2 3 4 /8 カートに追加 ホワイ"
         }
       },
       "aggregate": {
-        "availability": "in_stock",
+        "availability": "out_of_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z",
+        "last_sold_url": "https://www.c-labo-online.jp/product-list/3110"
       }
     },
     "βbeta-GD01-088": {
@@ -949,28 +762,28 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 148000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】バナージ・リンクス [ベータ版]【U+】GD01-088〈β〉 148,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 2,
           "price": 169980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "バナージ・リンクス [ Ver.β/パラレル ] 169,980 円 (税込) 在庫数2枚"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "βbeta-GD01-100": {
@@ -978,28 +791,28 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 158000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】覚悟の表れ [ベータ版]【U+】GD01-100〈β〉 158,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 2,
           "price": 279980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "覚悟の表れ [ Ver.β/パラレル ] 279,980 円 (税込) 在庫数2枚"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "βbeta-GD01-107": {
@@ -1007,28 +820,28 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 49800,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】ファーストコンタクト [ベータ版]【U+】GD01-107〈β〉 49,800 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "in_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 2,
           "price": 59980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "ファーストコンタクト [ Ver.β/パラレル ] 59,980 円 (税込) 在庫数2枚"
         }
       },
       "aggregate": {
         "availability": "in_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z"
+        "changed_at": "2026-09-02T14:57:23.979623Z"
       }
     },
     "βbeta-GD01-118": {
@@ -1036,31 +849,31 @@
         "cardlabo": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 648000,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "【ガンダム】溢れる慈愛 [ベータ版]【U+】GD01-118〈β〉 648,000 円 (税込) 在庫なし"
         },
         "cardland": {
           "availability": "out_of_stock",
           "transition_from": "unknown",
-          "changed_at": "2026-08-28T02:44:06.378531Z",
+          "changed_at": "2026-09-02T14:57:23.979623Z",
           "stock": 0,
           "price": 399980,
           "url": "https://www.cardland-kamata.com/product-list/760",
-          "confirmed_at": "2026-09-02T12:28:03.477595Z",
+          "confirmed_at": "2026-09-02T14:57:23.979623Z",
           "evidence": "溢れる慈愛 [ Ver.β/パラレル ] 399,980 円 (税込) 在庫なし"
         }
       },
       "aggregate": {
         "availability": "out_of_stock",
         "transition_from": "unknown",
-        "changed_at": "2026-08-28T02:44:06.378531Z",
+        "changed_at": "2026-09-02T14:57:23.979623Z",
         "last_sold_url": "https://www.c-labo-online.jp/product-list/3110"
       }
     }
   },
-  "updated_at": "2026-09-02T12:28:03.477595Z"
+  "updated_at": "2026-09-02T14:57:23.979623Z"
 }
