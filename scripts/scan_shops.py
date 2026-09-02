@@ -30,10 +30,11 @@ TIMEOUT = 20
 TRANSITION_HOURS = 24
 DEFAULT_FRESH_HOURS = 6
 DEFAULT_MIN_DELAY = 4.0
+MATCHER_VERSION = "v1.12-variant-strict-1"
 
 repo = os.environ.get("GITHUB_REPOSITORY", "your-account/gcg-stock-watch")
 UA = (
-    f"GCG-Stock-Watch/1.9 (+https://github.com/{repo}; "
+    f"GCG-Stock-Watch/1.12 (+https://github.com/{repo}; "
     "low-rate availability monitor; no purchase automation)"
 )
 
@@ -47,6 +48,7 @@ EXCLUDED_MARKERS = (
     "特価", "傷あり", "傷在り", "傷有", "傷在", "キズ", "訳あり", "状態b", "b品",
 )
 BETA_MARKERS = ("ver.β", "verβ", "β版", "ベータ版", "リミテッドbox", "limited box")
+CARD_CODE_RE = re.compile(r"\b(?:GD|ST|EB|EXB)\d{2}-\d{3}\b", re.I)
 
 
 @dataclass
@@ -198,6 +200,52 @@ def candidate_is_excluded(text: str, shop: dict) -> bool:
     return is_excluded(text)
 
 
+def candidate_scope_is_coherent(text: str, card: dict, shop: dict) -> bool:
+    """Fail closed when an ancestor clearly contains more than one card product.
+
+    The old parser could climb from one product row to a catalog/page container, then
+    borrow rarity/set/stock/price text from sibling products.  That is especially
+    dangerous for Ver.β cards because the normal and β variants share the same card
+    name/code.  A candidate scope may therefore contain only the requested card code
+    (or no visible full code for the two shop-specific adapters).
+    """
+    t = norm(text)
+    codes = {m.group(0).upper() for m in CARD_CODE_RE.finditer(t)}
+    target = str(card.get("code", "")).upper()
+    if codes and (codes - {target}):
+        return False
+    # Extremely large scopes are page/catalog containers, not product blocks.
+    if len(t) > 2200:
+        return False
+    return True
+
+
+def _torecolo_good_condition_text(text: str) -> str:
+    """Remove the secondary damaged-stock counter from a Torecolo good-condition row."""
+    t = norm(text)
+    # Torecolo may place `キズあり在庫：3点` beside `中古良品 在庫 0点`.
+    # The damaged counter must never make the good-condition listing in stock.
+    t = re.sub(
+        r"キズあり在庫\s*[:：]?\s*(?:\d+\s*(?:点|枚|個)?|有|あり|○|×)?",
+        " ", t, flags=re.I,
+    )
+    return norm(t)
+
+
+def stock_text_for_shop(text: str, shop: dict) -> str:
+    if shop.get("adapter") == "torecolo_exact" and "中古良品" in norm(text):
+        return _torecolo_good_condition_text(text)
+    return text
+
+
+def stock_signal_for_shop(text: str, shop: dict) -> str:
+    return stock_signal(stock_text_for_shop(text, shop), bool(shop.get("negativeWins")))
+
+
+def parse_stock_for_shop(text: str, shop: dict) -> int:
+    return parse_stock(stock_text_for_shop(text, shop))
+
+
 def exact_card_matches(text: str, card: dict) -> bool:
     t = compact(text)
     if compact(card.get("code", "")) not in t:
@@ -227,10 +275,14 @@ def shop_specific_matches(text: str, card: dict, shop: dict) -> bool:
     if adapter == "torecolo_exact":
         if not name or name not in t:
             return False
-        # Torecolo category blocks show 品番2 (set), rarity and product name, but may omit full card number.
+        # Torecolo category blocks show 品番2 (series), rarity and product name, but
+        # may omit the full card number.  For Ver.β cards the original series prefix
+        # (ST02/GD01 etc.) is essential; name+rarity+Ver.β alone can select a different
+        # card with the same display name.
         if card.get("group") == "LR++":
             return compact(card.get("targetSet", "")) in t and ("lr++" in t or "lr＋＋" in norm(text).lower())
-        return beta_matches(text, card) and rarity_matches(text, card)
+        series_prefix = compact(str(card.get("code", "")).split("-", 1)[0])
+        return bool(series_prefix and series_prefix in t) and beta_matches(text, card) and rarity_matches(text, card)
     return exact_card_matches(text, card)
 
 
@@ -259,22 +311,100 @@ def stock_signal(text: str, negative_wins: bool = False) -> str:
     return "unknown"
 
 
-def product_url_for(el, page_url: str, code: str) -> str:
-    # Prefer a link containing the exact card block. Fall back to the category page.
+def _safe_product_link(href: str | None, page_url: str) -> str | None:
+    """Normalize a candidate href and reject links that should never be a buy/product link."""
+    if not href:
+        return None
+    raw = href.strip()
+    low = raw.lower()
+    if not raw or raw.startswith("#") or low.startswith(("javascript:", "mailto:", "tel:")):
+        return None
+    absolute = urljoin(page_url, raw)
+    parsed = urlparse(absolute)
+    base = urlparse(page_url)
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        return None
+    # Product links should remain on the shop host (www/non-www differences are tolerated).
+    host = parsed.netloc.lower().removeprefix("www.")
+    base_host = base.netloc.lower().removeprefix("www.")
+    if host != base_host:
+        return None
+    pathq = (parsed.path + ("?" + parsed.query if parsed.query else "")).lower()
+    blocked = (
+        "/cart", "/checkout", "/login", "/account", "/member", "/mypage",
+        "/search", "javascript:", ".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg",
+        "/buy/", "/damage", "-s/"
+    )
+    if any(x in pathq for x in blocked):
+        return None
+    return absolute
+
+
+def _product_link_score(url: str, label: str, code: str, card_name: str = "") -> int:
+    """Score detail links above category/list/navigation links."""
+    p = urlparse(url)
+    pathq = (p.path + ("?" + p.query if p.query else "")).lower()
+    text = norm(label).lower()
+    score = 0
+    detail_markers = (
+        "/products/detail/", "/product/detail/", "/products/detail?",
+        "/product/", "/products/", "/view/item/", "/shop/g/g",
+        "/cardviewer/", "/products/detail", "/item/", "product_id=", "pid="
+    )
+    list_markers = (
+        "/product-list", "/products/list", "/collections/", "/view/category/",
+        "/product-group/", "/sell/", "/category", "sort=", "page="
+    )
+    if any(x in pathq for x in detail_markers):
+        score += 100
+    if any(x in pathq for x in list_markers):
+        score -= 70
+    if code.lower() in pathq:
+        score += 35
+    if code.lower() in text:
+        score += 25
+    if card_name and compact(card_name) in compact(text):
+        score += 20
+    # Links with meaningful anchor text are safer than image-only/navigation links.
+    if text:
+        score += 5
+    return score
+
+
+def product_url_for(el, page_url: str, code: str, card_name: str = "") -> str:
+    """Choose the most likely product-detail URL.
+
+    v1.10 could return the first anchor in a matching DOM block, which occasionally
+    produced category/image/navigation links. v1.11 ranks only safe same-shop links
+    and strongly prefers product-detail URL shapes. If no trustworthy detail link
+    exists, the known-good listing page is used instead of an unrelated anchor.
+    """
     links = []
     try:
         links.extend(el.find_all("a", href=True))
+        # If the matched element itself is an anchor, include it too.
+        if getattr(el, "name", None) == "a" and el.get("href"):
+            links.insert(0, el)
     except Exception:
         pass
+
+    candidates = []
+    seen = set()
     for a in links:
+        url = _safe_product_link(a.get("href"), page_url)
+        if not url or url in seen:
+            continue
+        seen.add(url)
         label = norm(a.get_text(" ", strip=True))
-        href = a.get("href")
-        if href and (code in label or code in href):
-            return urljoin(page_url, href)
-    for a in links:
-        href = a.get("href")
-        if href and not href.startswith("#") and "javascript:" not in href.lower():
-            return urljoin(page_url, href)
+        score = _product_link_score(url, label, code, card_name)
+        candidates.append((score, url))
+
+    if candidates:
+        candidates.sort(key=lambda x: (x[0], len(x[1])), reverse=True)
+        best_score, best_url = candidates[0]
+        # Require positive detail evidence. Otherwise keep the verified page URL.
+        if best_score >= 30:
+            return best_url
     return page_url
 
 
@@ -293,37 +423,55 @@ def parse_page_for_card(html: str, page_url: str, card: dict, shop: dict | None 
             text = norm(el.get_text(" ", strip=True))
             if len(text) > 5000:
                 break
-            if shop_specific_matches(text, card, shop):
-                sig = stock_signal(text, bool(shop.get("negativeWins")))
-                if sig != "unknown":
-                    # Only exclude the candidate itself; don't use special/damaged stock as normal inventory.
-                    excluded = candidate_is_excluded(text, shop)
-                    candidates.append((excluded, len(text), el, text, sig))
-                    break
+
+            identity_present = (compact(card.get("name", "")) in compact(text)) if special_adapter else (compact(code) in compact(text))
+            sig = stock_signal_for_shop(text, shop) if identity_present else "unknown"
+            exact = shop_specific_matches(text, card, shop) if identity_present else False
+            coherent = candidate_scope_is_coherent(text, card, shop) if identity_present else False
+
+            if exact and coherent and sig != "unknown":
+                # Only exclude the candidate itself; don't use special/damaged stock as normal inventory.
+                excluded = candidate_is_excluded(text, shop)
+                candidates.append((excluded, len(text), el, text, sig))
+                break
+
+            # Important fail-closed boundary: once the nearest card/product block has an
+            # explicit stock signal but fails variant identity (e.g. normal GD01 card
+            # instead of Limited BOX Ver.β), do not climb to a catalog ancestor and
+            # borrow `Ver.β`, price or stock from siblings/page headings.
+            if identity_present and sig != "unknown" and coherent and not exact:
+                break
+
             el = el.parent
     if not candidates:
-        # Text-only fallback for pages rendered as very flat markup.
-        page_text = norm(soup.get_text(" ", strip=True))
-        if shop_specific_matches(page_text, card, shop):
-            anchor = card.get("name", "") if special_adapter else code
-            idx = page_text.find(anchor)
-            if idx < 0:
-                idx = 0
-            window = page_text[max(0, idx - 500): idx + 1400]
-            if shop_specific_matches(window, card, shop) and not candidate_is_excluded(window, shop):
-                sig = stock_signal(window, bool(shop.get("negativeWins")))
-                if sig != "unknown":
-                    return Hit(True, sig, parse_stock(window) if sig == "in_stock" else 0,
-                               parse_price(window), page_url, window[:650])
-        return Hit(False, reason="exact card block not found")
+        # Fail closed by default.  Flattening an entire catalog into text was the
+        # source of cross-product contamination (normal/β variants, sibling prices
+        # and sibling stock counts).  A shop must explicitly opt in to the legacy
+        # text fallback after its markup has been audited.
+        if shop.get("allowTextFallback"):
+            page_text = norm(soup.get_text(" ", strip=True))
+            if shop_specific_matches(page_text, card, shop) and candidate_scope_is_coherent(page_text, card, shop):
+                anchor = card.get("name", "") if special_adapter else code
+                idx = page_text.find(anchor)
+                if idx < 0:
+                    idx = 0
+                window = page_text[max(0, idx - 350): idx + 900]
+                if (shop_specific_matches(window, card, shop)
+                        and candidate_scope_is_coherent(window, card, shop)
+                        and not candidate_is_excluded(window, shop)):
+                    sig = stock_signal_for_shop(window, shop)
+                    if sig != "unknown":
+                        return Hit(True, sig, parse_stock_for_shop(window, shop) if sig == "in_stock" else 0,
+                                   parse_price(window), page_url, window[:650])
+        return Hit(False, reason="exact variant product block not found")
 
     # Normal-condition candidates always beat special/damaged candidates; smallest DOM block is safest.
     candidates.sort(key=lambda x: (x[0], x[1]))
     excluded, _, el, text, sig = candidates[0]
     if excluded:
         return Hit(False, reason="only special/damaged candidate found")
-    url = product_url_for(el, page_url, code)
-    return Hit(True, sig, parse_stock(text) if sig == "in_stock" else 0, parse_price(text), url, text[:650])
+    url = product_url_for(el, page_url, code, card.get("name", ""))
+    return Hit(True, sig, parse_stock_for_shop(text, shop) if sig == "in_stock" else 0, parse_price(text), url, text[:650])
 
 
 def best_hit(current: Hit | None, hit: Hit) -> Hit:
@@ -457,6 +605,12 @@ def main() -> int:
     monitor = read_json(MONITOR_PATH, {})
     prev_source = read_json(SOURCE_STATE_PATH, {"schema": 2, "cards": {}})
     prev_public = read_json(PUBLIC_STATE_PATH, {"schema": 2, "cards": []})
+    # Matching rules changed materially in v1.12.  Legacy confirmations may point to
+    # the normal/main-set variant while the requested card is Ver.β.  Keeping those
+    # confirmations would preserve wrong price/stock/link data for hours, so a matcher
+    # version change intentionally invalidates the old per-shop cache once.
+    if prev_source.get("matcherVersion") != MATCHER_VERSION:
+        prev_source = {"schema": 2, "matcherVersion": MATCHER_VERSION, "cards": {}}
     prev_source.setdefault("cards", {})
 
     # Keep public metadata synchronized.
@@ -496,6 +650,7 @@ def main() -> int:
     shop_by_id = {s["id"]: s for s in shops}
     new_source = copy.deepcopy(prev_source)
     new_source["schema"] = 2
+    new_source["matcherVersion"] = MATCHER_VERSION
     new_source.setdefault("cards", {})
 
     # Update per-shop confirmed states only on exact evidence. No evidence never becomes sold out.
@@ -619,6 +774,7 @@ def main() -> int:
 
     public_state = {
         "schema": 2,
+        "matcherVersion": MATCHER_VERSION,
         "generatedAt": prev_public.get("generatedAt"),
         "scan": {
             "configuredShops": len([s for s in shops if s.get("enabled", True)]),
