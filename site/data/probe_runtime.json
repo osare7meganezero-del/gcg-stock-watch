@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T01:48:36.695249Z",
+  "generatedAt": "2026-09-03T02:01:08.699048Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -81,13 +81,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend",
-          "bytes": 193893
+          "bytes": 193917
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 69772
+          "bytes": 69760
         }
       }
     },
@@ -115,7 +115,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 522621
+          "bytes": 522575
         },
         "beta": {
           "status": "not_configured",
@@ -232,7 +232,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 983322
+          "bytes": 983300
         },
         "beta": {
           "status": "not_configured",
@@ -249,13 +249,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 117137
+          "bytes": 117069
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 283635
+          "bytes": 283601
         }
       }
     },
@@ -359,16 +359,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 194953
+          "status": "robots_hold",
+          "reason": "robots error ConnectTimeout"
         },
         "beta": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
-          "bytes": 273924
+          "status": "robots_hold",
+          "reason": "robots error ConnectTimeout"
         }
       }
     },
