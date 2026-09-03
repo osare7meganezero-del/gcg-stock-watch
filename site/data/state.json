@@ -1,15 +1,15 @@
 {
   "schema": 2,
   "matcherVersion": "v1.14-ntc-winners-1",
-  "generatedAt": "2026-09-03T02:01:08.922877Z",
+  "generatedAt": "2026-09-03T03:23:55.770643Z",
   "scan": {
     "configuredShops": 15,
-    "shopsReached": 10,
-    "shopsWithExactHits": 5,
-    "pagesRequested": 47,
+    "shopsReached": 11,
+    "shopsWithExactHits": 6,
+    "pagesRequested": 49,
     "intervalMinutes": 30,
     "freshHours": 6.0,
-    "lastAttemptAt": "2026-09-03T02:01:08.922877Z",
+    "lastAttemptAt": "2026-09-03T03:23:55.770643Z",
     "policy": "sequential; >= 4.0s between requests per shop; robots check; 403/429 circuit breaker; no visitor-triggered scraping; no purchase automation",
     "shops": [
       {
@@ -22,7 +22,7 @@
         "pagesOk": 14,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "cardlabo",
@@ -34,7 +34,7 @@
         "pagesOk": 6,
         "exactCards": 25,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "amenity",
@@ -46,7 +46,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "fullcomp",
@@ -58,7 +58,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "gunhappy",
@@ -70,7 +70,7 @@
         "pagesOk": 4,
         "exactCards": 3,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "projectcore",
@@ -82,7 +82,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "pao",
@@ -94,7 +94,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "spiral",
@@ -106,7 +106,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "cardmax",
@@ -118,7 +118,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "bankoku",
@@ -130,7 +130,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "mercard",
@@ -142,7 +142,7 @@
         "pagesOk": 4,
         "exactCards": 7,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "hobbystation",
@@ -154,7 +154,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "advantage",
@@ -166,7 +166,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "193net",
@@ -178,7 +178,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "tierone",
@@ -190,7 +190,7 @@
         "pagesOk": 6,
         "exactCards": 24,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "mintmall",
@@ -202,7 +202,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "cardland",
@@ -214,7 +214,7 @@
         "pagesOk": 7,
         "exactCards": 31,
         "error": null,
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "dorasuta",
@@ -226,7 +226,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "playze",
@@ -238,7 +238,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "cardkingdom",
@@ -250,7 +250,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "torekaoh",
@@ -262,19 +262,19 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "fukufuku",
         "name": "福福トレカ ガンダムカード専門店",
         "homeUrl": "https://gundam.fukufukutoreka.com/",
         "enabled": true,
-        "robotsAllowed": false,
-        "pagesRequested": 0,
-        "pagesOk": 0,
-        "exactCards": 0,
-        "error": "robots check failed: ConnectTimeout",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "robotsAllowed": true,
+        "pagesRequested": 2,
+        "pagesOk": 2,
+        "exactCards": 8,
+        "error": null,
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "manzokuya",
@@ -286,7 +286,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "dmmmyca",
@@ -298,7 +298,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "yuyutei",
@@ -310,7 +310,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       },
       {
         "id": "torecolo",
@@ -322,7 +322,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 406; safety stop",
-        "checkedAt": "2026-09-03T02:01:08.922877Z"
+        "checkedAt": "2026-09-03T03:23:55.770643Z"
       }
     ]
   },
@@ -355,7 +355,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD01-067",
@@ -385,7 +385,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD02-038",
@@ -408,7 +408,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD02-054",
@@ -438,7 +438,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD03-017",
@@ -468,7 +468,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD03-035",
@@ -498,7 +498,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD04-017",
@@ -535,7 +535,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD04-050",
@@ -558,7 +558,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD05-002",
@@ -573,7 +573,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD05-017",
@@ -596,7 +596,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD05-033",
@@ -619,7 +619,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD05-049",
@@ -642,7 +642,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "LRpp-GD05-067",
@@ -657,7 +657,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "NTC25M1-GD01-067",
@@ -665,7 +665,7 @@
       "availability": "in_stock",
       "price": 199980,
       "shop": "カードランド",
-      "shopCount": 2,
+      "shopCount": 1,
       "productUrl": "https://www.cardland-kamata.com/product-list/817",
       "lastProductUrl": null,
       "inventories": [
@@ -675,19 +675,12 @@
           "url": "https://www.cardland-kamata.com/product-list/817",
           "price": 199980,
           "stock": 3
-        },
-        {
-          "id": "hobbystation",
-          "name": "ホビーステーション シングル通販",
-          "url": "https://www.hobbystation-single.jp/gc/product/detail/419572",
-          "price": 248000,
-          "stock": 3
         }
       ],
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "NTC25M2-GD02-069",
@@ -695,7 +688,7 @@
       "availability": "in_stock",
       "price": 149980,
       "shop": "カードランド",
-      "shopCount": 2,
+      "shopCount": 1,
       "productUrl": "https://www.cardland-kamata.com/product-list/817",
       "lastProductUrl": null,
       "inventories": [
@@ -705,19 +698,12 @@
           "url": "https://www.cardland-kamata.com/product-list/817",
           "price": 149980,
           "stock": 1
-        },
-        {
-          "id": "hobbystation",
-          "name": "ホビーステーション シングル通販",
-          "url": "https://www.hobbystation-single.jp/gc/product/detail/429909",
-          "price": 178000,
-          "stock": 2
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "NTC25M3-GD02-036",
@@ -725,7 +711,7 @@
       "availability": "in_stock",
       "price": 158000,
       "shop": "Tier One",
-      "shopCount": 2,
+      "shopCount": 1,
       "productUrl": "https://tier-one.jp/view/item/000000013258?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
@@ -735,60 +721,38 @@
           "url": "https://tier-one.jp/view/item/000000013258?category_page_id=gcg",
           "price": 158000,
           "stock": 1
-        },
-        {
-          "id": "hobbystation",
-          "name": "ホビーステーション シングル通販",
-          "url": "https://www.hobbystation-single.jp/gc/product/detail/435361",
-          "price": 178000,
-          "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "NTC26M1-GD01-065",
-      "status": "blue",
-      "availability": "in_stock",
-      "price": 598000,
-      "shop": "ホビーステーション シングル通販",
-      "shopCount": 1,
-      "productUrl": "https://www.hobbystation-single.jp/gc/product/detail/453945",
-      "lastProductUrl": null,
-      "inventories": [
-        {
-          "id": "hobbystation",
-          "name": "ホビーステーション シングル通販",
-          "url": "https://www.hobbystation-single.jp/gc/product/detail/453945",
-          "price": 598000,
-          "stock": 2
-        }
-      ],
+      "status": "orange",
+      "availability": "out_of_stock",
+      "price": null,
+      "shop": "",
+      "shopCount": 0,
+      "productUrl": null,
+      "lastProductUrl": "https://www.mercardgundam.jp/product-group/37",
+      "inventories": [],
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "NTC26M2-ST07-005",
       "status": "blue",
       "availability": "in_stock",
-      "price": 89800,
-      "shop": "ホビーステーション シングル通販",
-      "shopCount": 2,
-      "productUrl": "https://www.hobbystation-single.jp/gc/product/detail/460173",
+      "price": 99980,
+      "shop": "カードランド",
+      "shopCount": 1,
+      "productUrl": "https://www.cardland-kamata.com/product-list/817",
       "lastProductUrl": null,
       "inventories": [
-        {
-          "id": "hobbystation",
-          "name": "ホビーステーション シングル通販",
-          "url": "https://www.hobbystation-single.jp/gc/product/detail/460173",
-          "price": 89800,
-          "stock": 4
-        },
         {
           "id": "cardland",
           "name": "カードランド",
@@ -800,48 +764,33 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "NTC26M3-GD03-050",
-      "status": "blue",
-      "availability": "in_stock",
-      "price": 128000,
-      "shop": "ホビーステーション シングル通販",
-      "shopCount": 1,
-      "productUrl": "https://www.hobbystation-single.jp/gc/product/detail/470483",
-      "lastProductUrl": null,
-      "inventories": [
-        {
-          "id": "hobbystation",
-          "name": "ホビーステーション シングル通販",
-          "url": "https://www.hobbystation-single.jp/gc/product/detail/470483",
-          "price": 128000,
-          "stock": 4
-        }
-      ],
+      "status": "orange",
+      "availability": "out_of_stock",
+      "price": null,
+      "shop": "",
+      "shopCount": 0,
+      "productUrl": null,
+      "lastProductUrl": "https://www.mercardgundam.jp/product-group/37",
+      "inventories": [],
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "NTC26M4-GD04-066",
       "status": "blue",
       "availability": "in_stock",
-      "price": 158000,
-      "shop": "ホビーステーション シングル通販",
-      "shopCount": 2,
-      "productUrl": "https://www.hobbystation-single.jp/gc/product/detail/490054",
+      "price": 168000,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000016198?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
-        {
-          "id": "hobbystation",
-          "name": "ホビーステーション シングル通販",
-          "url": "https://www.hobbystation-single.jp/gc/product/detail/490054",
-          "price": 158000,
-          "stock": 1
-        },
         {
           "id": "tierone",
           "name": "Tier One",
@@ -853,7 +802,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-ST01-001",
@@ -868,7 +817,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-ST01-011",
@@ -891,7 +840,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-ST02-001",
@@ -906,7 +855,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-ST03-011",
@@ -929,7 +878,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-ST04-001",
@@ -959,7 +908,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-GD01-004",
@@ -974,7 +923,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-GD01-026",
@@ -997,7 +946,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-GD01-070",
@@ -1012,7 +961,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-GD01-088",
@@ -1035,7 +984,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-GD01-100",
@@ -1058,7 +1007,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-GD01-107",
@@ -1081,7 +1030,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     },
     {
       "id": "βbeta-GD01-118",
@@ -1096,7 +1045,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-03T02:01:08.922877Z"
+      "checkedAt": "2026-09-03T03:23:55.770643Z"
     }
   ]
 }
