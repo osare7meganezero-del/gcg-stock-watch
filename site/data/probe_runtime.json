@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T21:32:48.493497Z",
+  "generatedAt": "2026-09-04T21:45:31.981662Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -64,7 +64,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 239556
+          "bytes": 239559
         },
         "beta": {
           "status": "not_configured",
@@ -78,12 +78,16 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "robots_hold",
-          "reason": "robots HTTP 403"
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend",
+          "bytes": 196381
         },
         "beta": {
-          "status": "robots_hold",
-          "reason": "robots HTTP 403"
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://www.gun-happy.com/view/item/000000000408",
+          "bytes": 71374
         }
       }
     },
@@ -108,8 +112,10 @@
       "monitorStatus": "verified_partial",
       "samples": {
         "lrpp": {
-          "status": "robots_hold",
-          "reason": "robots HTTP 403"
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://pao-onlineshop.com/view/category/GCG",
+          "bytes": 523178
         },
         "beta": {
           "status": "not_configured",
@@ -156,7 +162,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 778707
+          "bytes": 778710
         },
         "beta": {
           "status": "not_configured",
@@ -226,7 +232,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 983378
+          "bytes": 983399
         },
         "beta": {
           "status": "not_configured",
@@ -240,12 +246,16 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "robots_hold",
-          "reason": "robots HTTP 403"
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://tier-one.jp/view/item/000000016218",
+          "bytes": 117148
         },
         "beta": {
-          "status": "robots_hold",
-          "reason": "robots HTTP 403"
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://tier-one.jp/view/category/gcg",
+          "bytes": 285273
         }
       }
     },
