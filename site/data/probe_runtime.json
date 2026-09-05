@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T08:59:27.760994Z",
+  "generatedAt": "2026-09-05T09:20:14.776578Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -81,13 +81,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend",
-          "bytes": 196514
+          "bytes": 196534
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 71434
+          "bytes": 71412
         }
       }
     },
@@ -115,7 +115,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 527916
+          "bytes": 527930
         },
         "beta": {
           "status": "not_configured",
@@ -232,7 +232,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 983438
+          "bytes": 983497
         },
         "beta": {
           "status": "not_configured",
@@ -249,13 +249,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 117094
+          "bytes": 117160
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 289390
+          "bytes": 289388
         }
       }
     },
@@ -283,7 +283,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.cardland-kamata.com/product-list/759",
-          "bytes": 768278
+          "bytes": 768274
         },
         "beta": {
           "status": "sample_found",
@@ -362,7 +362,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 107704
+          "bytes": 107676
         },
         "beta": {
           "status": "sample_found",
