@@ -1,0 +1,436 @@
+{
+  "generatedAt": "2026-09-05T18:38:11.447835Z",
+  "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
+  "shops": [
+    {
+      "id": "bigweb",
+      "name": "BIGWEB",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8906",
+          "bytes": 1746
+        },
+        "beta": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=877",
+          "bytes": 1746
+        }
+      }
+    },
+    {
+      "id": "cardlabo",
+      "name": "カードラボ",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
+          "bytes": 2020656
+        },
+        "beta": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://www.c-labo-online.jp/product-list/3110",
+          "bytes": 1771527
+        }
+      }
+    },
+    {
+      "id": "amenity",
+      "name": "アメニティードリーム",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "fullcomp",
+      "name": "フルコンプ ONLINE SHOP",
+      "monitorStatus": "verified_partial",
+      "samples": {
+        "lrpp": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
+          "bytes": 239559
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "gunhappy",
+      "name": "ガンハッピー",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend",
+          "bytes": 196968
+        },
+        "beta": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://www.gun-happy.com/view/item/000000000408",
+          "bytes": 71438
+        }
+      }
+    },
+    {
+      "id": "projectcore",
+      "name": "PROJECT CORE",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "pao",
+      "name": "通販のPAO",
+      "monitorStatus": "verified_partial",
+      "samples": {
+        "lrpp": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://pao-onlineshop.com/view/category/GCG",
+          "bytes": 527982
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "spiral",
+      "name": "カードショップすぱいらる",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "cardmax",
+      "name": "CARDMAX",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "bankoku",
+      "name": "トレカの万国",
+      "monitorStatus": "verified_partial",
+      "samples": {
+        "lrpp": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
+          "bytes": 778812
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "mercard",
+      "name": "メルカード ガンダムカードEC店",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://www.mercardgundam.jp/product/2483",
+          "bytes": 130418
+        },
+        "beta": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://www.mercardgundam.jp/product/9",
+          "bytes": 140416
+        }
+      }
+    },
+    {
+      "id": "hobbystation",
+      "name": "ホビーステーション シングル通販",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://www.hobbystation-single.jp/gc/product/list",
+          "bytes": 2138
+        },
+        "beta": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://www.hobbystation-single.jp/gc/product/list",
+          "bytes": 2138
+        }
+      }
+    },
+    {
+      "id": "advantage",
+      "name": "TCG通販アドバンテージ",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "193net",
+      "name": "193net",
+      "monitorStatus": "verified_partial",
+      "samples": {
+        "lrpp": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://193tcg.com/products/list?category_id=2392",
+          "bytes": 983491
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "tierone",
+      "name": "Tier One",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://tier-one.jp/view/item/000000016218",
+          "bytes": 117054
+        },
+        "beta": {
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://tier-one.jp/view/category/gcg",
+          "bytes": 296181
+        }
+      }
+    },
+    {
+      "id": "mintmall",
+      "name": "MINTモール",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "cardland",
+      "name": "カードランド",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://www.cardland-kamata.com/product-list/759",
+          "bytes": 769891
+        },
+        "beta": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://www.cardland-kamata.com/product/34537",
+          "bytes": 536880
+        }
+      }
+    },
+    {
+      "id": "dorasuta",
+      "name": "ドラゴンスター",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "robots_hold",
+          "reason": "robots HTTP 403"
+        },
+        "beta": {
+          "status": "robots_hold",
+          "reason": "robots HTTP 403"
+        }
+      }
+    },
+    {
+      "id": "playze",
+      "name": "プレイズ 公式通販",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "cardkingdom",
+      "name": "カードキングダム通販",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "torekaoh",
+      "name": "トレカ王",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "fukufuku",
+      "name": "福福トレカ ガンダムカード専門店",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
+          "bytes": 107840
+        },
+        "beta": {
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
+          "bytes": 186904
+        }
+      }
+    },
+    {
+      "id": "manzokuya",
+      "name": "まんぞく屋",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "dmmmyca",
+      "name": "DMMマイカ",
+      "monitorStatus": "probation",
+      "samples": {
+        "lrpp": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        },
+        "beta": {
+          "status": "not_configured",
+          "reason": "no verified probe URL"
+        }
+      }
+    },
+    {
+      "id": "yuyutei",
+      "name": "遊々亭",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "robots_hold",
+          "reason": "robots HTTP 403"
+        },
+        "beta": {
+          "status": "robots_hold",
+          "reason": "robots HTTP 403"
+        }
+      }
+    },
+    {
+      "id": "torecolo",
+      "name": "カードボックス（CBトレコロ）",
+      "monitorStatus": "verified",
+      "samples": {
+        "lrpp": {
+          "status": "robots_hold",
+          "reason": "robots HTTP 406"
+        },
+        "beta": {
+          "status": "robots_hold",
+          "reason": "robots HTTP 406"
+        }
+      }
+    }
+  ]
+}
