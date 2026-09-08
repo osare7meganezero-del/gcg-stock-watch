@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "matcherVersion": "v1.14-ntc-winners-1",
-  "generatedAt": "2026-09-08T03:05:27.456498Z",
+  "generatedAt": "2026-09-08T04:23:02.564225Z",
   "scan": {
     "configuredShops": 15,
     "shopsReached": 11,
@@ -9,7 +9,7 @@
     "pagesRequested": 49,
     "intervalMinutes": 30,
     "freshHours": 6.0,
-    "lastAttemptAt": "2026-09-08T03:05:27.456498Z",
+    "lastAttemptAt": "2026-09-08T04:23:02.564225Z",
     "policy": "sequential; >= 4.0s between requests per shop; robots check; 403/429 circuit breaker; no visitor-triggered scraping; no purchase automation",
     "shops": [
       {
@@ -22,7 +22,7 @@
         "pagesOk": 14,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "cardlabo",
@@ -34,7 +34,7 @@
         "pagesOk": 6,
         "exactCards": 25,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "amenity",
@@ -46,7 +46,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "fullcomp",
@@ -58,7 +58,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "gunhappy",
@@ -70,7 +70,7 @@
         "pagesOk": 4,
         "exactCards": 2,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "projectcore",
@@ -82,7 +82,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "pao",
@@ -94,7 +94,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "spiral",
@@ -106,7 +106,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "cardmax",
@@ -118,7 +118,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "bankoku",
@@ -130,7 +130,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "mercard",
@@ -142,7 +142,7 @@
         "pagesOk": 4,
         "exactCards": 7,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "hobbystation",
@@ -154,7 +154,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "advantage",
@@ -166,7 +166,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "193net",
@@ -178,7 +178,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "tierone",
@@ -190,7 +190,7 @@
         "pagesOk": 6,
         "exactCards": 24,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "mintmall",
@@ -202,7 +202,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "cardland",
@@ -214,7 +214,7 @@
         "pagesOk": 7,
         "exactCards": 31,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "dorasuta",
@@ -226,7 +226,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "playze",
@@ -238,7 +238,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "cardkingdom",
@@ -250,7 +250,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "torekaoh",
@@ -262,7 +262,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "fukufuku",
@@ -274,7 +274,7 @@
         "pagesOk": 2,
         "exactCards": 9,
         "error": null,
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "manzokuya",
@@ -286,7 +286,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "dmmmyca",
@@ -298,7 +298,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "yuyutei",
@@ -310,7 +310,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       },
       {
         "id": "torecolo",
@@ -322,7 +322,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 406; safety stop",
-        "checkedAt": "2026-09-08T03:05:27.456498Z"
+        "checkedAt": "2026-09-08T04:23:02.564225Z"
       }
     ]
   },
@@ -348,7 +348,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD01-067",
@@ -378,7 +378,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD02-038",
@@ -401,7 +401,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD02-054",
@@ -438,7 +438,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD03-017",
@@ -468,7 +468,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD03-035",
@@ -498,7 +498,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD04-017",
@@ -535,7 +535,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD04-050",
@@ -558,7 +558,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD05-002",
@@ -573,7 +573,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD05-017",
@@ -596,7 +596,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD05-033",
@@ -619,7 +619,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD05-049",
@@ -642,7 +642,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "LRpp-GD05-067",
@@ -657,7 +657,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "NTC25M1-GD01-067",
@@ -680,7 +680,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "NTC25M2-GD02-069",
@@ -703,7 +703,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "NTC25M3-GD02-036",
@@ -726,7 +726,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "NTC26M1-GD01-065",
@@ -741,7 +741,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "NTC26M2-ST07-005",
@@ -764,7 +764,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "NTC26M3-GD03-050",
@@ -787,18 +787,25 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "NTC26M4-GD04-066",
       "status": "green",
       "availability": "in_stock",
-      "price": 168000,
-      "shop": "Tier One",
-      "shopCount": 1,
-      "productUrl": "https://tier-one.jp/view/item/000000016198?category_page_id=gcg",
+      "price": 148000,
+      "shop": "メルカード ガンダムカードEC店",
+      "shopCount": 2,
+      "productUrl": "https://www.mercardgundam.jp/product-list/5",
       "lastProductUrl": null,
       "inventories": [
+        {
+          "id": "mercard",
+          "name": "メルカード ガンダムカードEC店",
+          "url": "https://www.mercardgundam.jp/product-list/5",
+          "price": 148000,
+          "stock": 1
+        },
         {
           "id": "tierone",
           "name": "Tier One",
@@ -807,10 +814,10 @@
           "stock": 1
         }
       ],
-      "outOfStockConfirmations": 2,
+      "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-ST01-001",
@@ -825,7 +832,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-ST01-011",
@@ -848,7 +855,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-ST02-001",
@@ -863,7 +870,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-ST03-011",
@@ -886,7 +893,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-ST04-001",
@@ -916,7 +923,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-GD01-004",
@@ -931,7 +938,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-GD01-026",
@@ -961,7 +968,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-GD01-070",
@@ -976,7 +983,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-GD01-088",
@@ -999,7 +1006,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-GD01-100",
@@ -1022,7 +1029,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-GD01-107",
@@ -1045,7 +1052,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     },
     {
       "id": "βbeta-GD01-118",
@@ -1060,7 +1067,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-08T03:05:27.456498Z"
+      "checkedAt": "2026-09-08T04:23:02.564225Z"
     }
   ]
 }
