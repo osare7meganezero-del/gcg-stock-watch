@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T05:59:45.730018Z",
+  "generatedAt": "2026-09-11T06:27:21.374371Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -81,13 +81,13 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend",
-          "bytes": 195423
+          "bytes": 195538
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 71140
+          "bytes": 71168
         }
       }
     },
@@ -232,7 +232,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 989304
+          "bytes": 989251
         },
         "beta": {
           "status": "not_configured",
@@ -249,13 +249,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 121205
+          "bytes": 121255
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 294601
+          "bytes": 294597
         }
       }
     },
@@ -362,7 +362,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 107718
+          "bytes": 194781
         },
         "beta": {
           "status": "sample_found",
