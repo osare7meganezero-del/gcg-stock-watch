@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T08:59:32.986886Z",
+  "generatedAt": "2026-09-18T09:22:14.494419Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -81,13 +81,13 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend",
-          "bytes": 194363
+          "bytes": 195036
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 71561
+          "bytes": 71549
         }
       }
     },
@@ -115,7 +115,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 666232
+          "bytes": 666130
         },
         "beta": {
           "status": "not_configured",
@@ -162,7 +162,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 778673
+          "bytes": 778529
         },
         "beta": {
           "status": "not_configured",
@@ -232,7 +232,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 990057
+          "bytes": 990083
         },
         "beta": {
           "status": "not_configured",
@@ -249,13 +249,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 121247
+          "bytes": 121201
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 294427
+          "bytes": 294387
         }
       }
     },
