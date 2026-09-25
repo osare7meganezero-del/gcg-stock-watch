@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T19:59:17.078099Z",
+  "generatedAt": "2026-09-25T20:20:49.803735Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -64,7 +64,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 250725
+          "bytes": 250728
         },
         "beta": {
           "status": "not_configured",
@@ -113,7 +113,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 668829
+          "bytes": 668855
         },
         "beta": {
           "status": "not_configured",
@@ -160,7 +160,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 771588
+          "bytes": 771639
         },
         "beta": {
           "status": "not_configured",
@@ -251,7 +251,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 285097
+          "bytes": 285007
         }
       }
     },
