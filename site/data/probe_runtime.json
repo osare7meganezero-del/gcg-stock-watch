@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T14:24:42.763326Z",
+  "generatedAt": "2026-09-25T14:49:54.384458Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -85,7 +85,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 73217
+          "bytes": 73291
         }
       }
     },
@@ -113,7 +113,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 668803
+          "bytes": 668765
         },
         "beta": {
           "status": "not_configured",
@@ -160,7 +160,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 771552
+          "bytes": 771636
         },
         "beta": {
           "status": "not_configured",
@@ -251,7 +251,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 284818
+          "bytes": 284810
         }
       }
     },
@@ -355,12 +355,16 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "robots_hold",
-          "reason": "robots error ConnectTimeout"
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
+          "bytes": 110477
         },
         "beta": {
-          "status": "robots_hold",
-          "reason": "robots error ConnectTimeout"
+          "status": "page_ok_sample_missing",
+          "http": 200,
+          "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
+          "bytes": 276069
         }
       }
     },
