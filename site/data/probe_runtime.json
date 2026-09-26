@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T01:02:21.825708Z",
+  "generatedAt": "2026-09-26T01:20:18.395222Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -64,7 +64,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 250725
+          "bytes": 250728
         },
         "beta": {
           "status": "not_configured",
@@ -85,7 +85,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 73261
+          "bytes": 73225
         }
       }
     },
@@ -113,7 +113,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 668851
+          "bytes": 668827
         },
         "beta": {
           "status": "not_configured",
@@ -160,7 +160,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 771672
+          "bytes": 771591
         },
         "beta": {
           "status": "not_configured",
@@ -174,16 +174,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://www.mercardgundam.jp/product/2483",
-          "bytes": 134839
+          "status": "http_error",
+          "reason": "HTTP 503"
         },
         "beta": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://www.mercardgundam.jp/product/9",
-          "bytes": 144837
+          "status": "http_error",
+          "reason": "HTTP 503"
         }
       }
     },
@@ -230,7 +226,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 991071
+          "bytes": 991138
         },
         "beta": {
           "status": "not_configured",
@@ -247,13 +243,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120008
+          "bytes": 119996
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 284504
+          "bytes": 284466
         }
       }
     },
@@ -360,13 +356,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 193540
+          "bytes": 110508
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
-          "bytes": 272039
+          "bytes": 276070
         }
       }
     },
