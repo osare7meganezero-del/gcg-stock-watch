@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "matcherVersion": "v1.14-ntc-winners-1",
-  "generatedAt": "2026-09-28T12:19:46.083724Z",
+  "generatedAt": "2026-09-28T19:45:00.865601Z",
   "scan": {
     "configuredShops": 15,
     "shopsReached": 10,
@@ -9,7 +9,7 @@
     "pagesRequested": 45,
     "intervalMinutes": 30,
     "freshHours": 6.0,
-    "lastAttemptAt": "2026-09-28T12:19:46.083724Z",
+    "lastAttemptAt": "2026-09-28T19:45:00.865601Z",
     "policy": "sequential; >= 4.0s between requests per shop; robots check; 403/429 circuit breaker; no visitor-triggered scraping; no purchase automation",
     "shops": [
       {
@@ -22,7 +22,7 @@
         "pagesOk": 14,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "cardlabo",
@@ -34,7 +34,7 @@
         "pagesOk": 6,
         "exactCards": 25,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "amenity",
@@ -46,7 +46,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "fullcomp",
@@ -58,7 +58,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "gunhappy",
@@ -70,7 +70,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "projectcore",
@@ -82,7 +82,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "pao",
@@ -94,7 +94,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "spiral",
@@ -106,7 +106,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "cardmax",
@@ -118,7 +118,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "bankoku",
@@ -130,7 +130,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "mercard",
@@ -142,7 +142,7 @@
         "pagesOk": 4,
         "exactCards": 7,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "hobbystation",
@@ -154,7 +154,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "advantage",
@@ -166,7 +166,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "193net",
@@ -178,7 +178,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "tierone",
@@ -190,7 +190,7 @@
         "pagesOk": 6,
         "exactCards": 22,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "mintmall",
@@ -202,7 +202,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "cardland",
@@ -214,7 +214,7 @@
         "pagesOk": 7,
         "exactCards": 31,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "dorasuta",
@@ -226,7 +226,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "playze",
@@ -238,7 +238,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "cardkingdom",
@@ -250,7 +250,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "torekaoh",
@@ -262,7 +262,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "fukufuku",
@@ -274,7 +274,7 @@
         "pagesOk": 2,
         "exactCards": 13,
         "error": null,
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "manzokuya",
@@ -286,7 +286,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "dmmmyca",
@@ -298,7 +298,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "yuyutei",
@@ -310,7 +310,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       },
       {
         "id": "torecolo",
@@ -322,7 +322,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 406; safety stop",
-        "checkedAt": "2026-09-28T12:19:46.083724Z"
+        "checkedAt": "2026-09-28T19:45:00.865601Z"
       }
     ]
   },
@@ -355,13 +355,13 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD01-067",
       "status": "green",
       "availability": "in_stock",
-      "price": 55000,
+      "price": 52000,
       "shop": "福福トレカ ガンダムカード専門店",
       "shopCount": 2,
       "productUrl": "https://gundam.fukufukutoreka.com/products/detail/291",
@@ -371,7 +371,7 @@
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/291",
-          "price": 55000,
+          "price": 52000,
           "stock": 1
         },
         {
@@ -385,13 +385,13 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD02-038",
       "status": "green",
       "availability": "in_stock",
-      "price": 40000,
+      "price": 38000,
       "shop": "福福トレカ ガンダムカード専門店",
       "shopCount": 2,
       "productUrl": "https://gundam.fukufukutoreka.com/products/detail/783",
@@ -401,7 +401,7 @@
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/783",
-          "price": 40000,
+          "price": 38000,
           "stock": 1
         },
         {
@@ -415,7 +415,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD02-054",
@@ -445,13 +445,13 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD03-017",
       "status": "green",
       "availability": "in_stock",
-      "price": 35000,
+      "price": 34000,
       "shop": "福福トレカ ガンダムカード専門店",
       "shopCount": 2,
       "productUrl": "https://gundam.fukufukutoreka.com/products/detail/1276",
@@ -461,7 +461,7 @@
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/1276",
-          "price": 35000,
+          "price": 34000,
           "stock": 1
         },
         {
@@ -475,13 +475,13 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD03-035",
       "status": "green",
       "availability": "in_stock",
-      "price": 40000,
+      "price": 38000,
       "shop": "福福トレカ ガンダムカード専門店",
       "shopCount": 2,
       "productUrl": "https://gundam.fukufukutoreka.com/products/detail/1275",
@@ -491,7 +491,7 @@
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/1275",
-          "price": 40000,
+          "price": 38000,
           "stock": 1
         },
         {
@@ -505,7 +505,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD04-017",
@@ -535,13 +535,13 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD04-050",
       "status": "blue",
       "availability": "in_stock",
-      "price": 120000,
+      "price": 115000,
       "shop": "福福トレカ ガンダムカード専門店",
       "shopCount": 1,
       "productUrl": "https://gundam.fukufukutoreka.com/products/detail/1789",
@@ -551,14 +551,14 @@
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/1789",
-          "price": 120000,
+          "price": 115000,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD05-002",
@@ -573,7 +573,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD05-017",
@@ -596,7 +596,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD05-033",
@@ -611,7 +611,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD05-049",
@@ -634,7 +634,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "LRpp-GD05-067",
@@ -649,7 +649,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "NTC25M1-GD01-067",
@@ -672,7 +672,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "NTC25M2-GD02-069",
@@ -695,7 +695,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "NTC25M3-GD02-036",
@@ -718,7 +718,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "NTC26M1-GD01-065",
@@ -733,7 +733,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "NTC26M2-ST07-005",
@@ -756,7 +756,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "NTC26M3-GD03-050",
@@ -771,7 +771,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "NTC26M4-GD04-066",
@@ -780,13 +780,13 @@
       "price": 138000,
       "shop": "メルカード ガンダムカードEC店",
       "shopCount": 1,
-      "productUrl": "https://www.mercardgundam.jp/product-group/37",
+      "productUrl": "https://www.mercardgundam.jp/product-list/5",
       "lastProductUrl": null,
       "inventories": [
         {
           "id": "mercard",
           "name": "メルカード ガンダムカードEC店",
-          "url": "https://www.mercardgundam.jp/product-group/37",
+          "url": "https://www.mercardgundam.jp/product-list/5",
           "price": 138000,
           "stock": 2
         }
@@ -794,7 +794,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-ST01-001",
@@ -809,7 +809,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-ST01-011",
@@ -832,7 +832,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-ST02-001",
@@ -847,7 +847,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-ST03-011",
@@ -870,7 +870,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-ST04-001",
@@ -907,7 +907,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-GD01-004",
@@ -930,7 +930,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-GD01-026",
@@ -953,7 +953,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-GD01-070",
@@ -968,7 +968,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-GD01-088",
@@ -998,7 +998,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-GD01-100",
@@ -1021,7 +1021,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-GD01-107",
@@ -1051,7 +1051,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     },
     {
       "id": "βbeta-GD01-118",
@@ -1074,7 +1074,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-09-28T12:19:46.083724Z"
+      "checkedAt": "2026-09-28T19:45:00.865601Z"
     }
   ]
 }
