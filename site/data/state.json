@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "matcherVersion": "v1.14-ntc-winners-1",
-  "generatedAt": "2026-10-09T06:00:25.777592Z",
+  "generatedAt": "2026-10-09T13:08:33.071010Z",
   "scan": {
     "configuredShops": 15,
     "shopsReached": 10,
@@ -9,7 +9,7 @@
     "pagesRequested": 45,
     "intervalMinutes": 30,
     "freshHours": 6.0,
-    "lastAttemptAt": "2026-10-09T06:00:25.777592Z",
+    "lastAttemptAt": "2026-10-09T13:08:33.071010Z",
     "policy": "sequential; >= 4.0s between requests per shop; robots check; 403/429 circuit breaker; no visitor-triggered scraping; no purchase automation",
     "shops": [
       {
@@ -22,7 +22,7 @@
         "pagesOk": 14,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "cardlabo",
@@ -34,7 +34,7 @@
         "pagesOk": 6,
         "exactCards": 25,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "amenity",
@@ -46,7 +46,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "fullcomp",
@@ -58,7 +58,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "gunhappy",
@@ -70,7 +70,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "projectcore",
@@ -82,7 +82,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "pao",
@@ -94,7 +94,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "spiral",
@@ -106,7 +106,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "cardmax",
@@ -118,7 +118,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "bankoku",
@@ -130,7 +130,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "mercard",
@@ -142,7 +142,7 @@
         "pagesOk": 4,
         "exactCards": 7,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "hobbystation",
@@ -154,7 +154,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "advantage",
@@ -166,7 +166,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "193net",
@@ -178,7 +178,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "tierone",
@@ -190,7 +190,7 @@
         "pagesOk": 6,
         "exactCards": 26,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "mintmall",
@@ -202,7 +202,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "cardland",
@@ -214,7 +214,7 @@
         "pagesOk": 7,
         "exactCards": 31,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "dorasuta",
@@ -226,7 +226,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "playze",
@@ -238,7 +238,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "cardkingdom",
@@ -250,7 +250,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "torekaoh",
@@ -262,7 +262,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "fukufuku",
@@ -272,9 +272,9 @@
         "robotsAllowed": true,
         "pagesRequested": 2,
         "pagesOk": 2,
-        "exactCards": 13,
+        "exactCards": 12,
         "error": null,
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "manzokuya",
@@ -286,7 +286,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "dmmmyca",
@@ -298,7 +298,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "yuyutei",
@@ -310,7 +310,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       },
       {
         "id": "torecolo",
@@ -322,7 +322,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 406; safety stop",
-        "checkedAt": "2026-10-09T06:00:25.777592Z"
+        "checkedAt": "2026-10-09T13:08:33.071010Z"
       }
     ]
   },
@@ -348,44 +348,44 @@
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000012224?category_page_id=gcg",
-          "price": 128000,
+          "price": 148000,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD01-067",
       "status": "green",
       "availability": "in_stock",
-      "price": 52000,
-      "shop": "福福トレカ ガンダムカード専門店",
+      "price": 51800,
+      "shop": "Tier One",
       "shopCount": 2,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/291",
+      "productUrl": "https://tier-one.jp/view/item/000000016555?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000016555?category_page_id=gcg",
+          "price": 51800,
+          "stock": 1
+        },
         {
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/291",
           "price": 52000,
           "stock": 1
-        },
-        {
-          "id": "tierone",
-          "name": "Tier One",
-          "url": "https://tier-one.jp/view/item/000000016555?category_page_id=gcg",
-          "price": 56800,
-          "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD02-038",
@@ -415,30 +415,30 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD02-054",
       "status": "green",
       "availability": "in_stock",
-      "price": 60000,
-      "shop": "福福トレカ ガンダムカード専門店",
+      "price": 59800,
+      "shop": "Tier One",
       "shopCount": 3,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/784",
+      "productUrl": "https://tier-one.jp/view/item/000000012985?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000012985?category_page_id=gcg",
+          "price": 59800,
+          "stock": 1
+        },
         {
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/784",
           "price": 60000,
-          "stock": 1
-        },
-        {
-          "id": "tierone",
-          "name": "Tier One",
-          "url": "https://tier-one.jp/view/item/000000012985?category_page_id=gcg",
-          "price": 69800,
           "stock": 1
         },
         {
@@ -452,30 +452,30 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD03-017",
       "status": "green",
       "availability": "in_stock",
-      "price": 34000,
-      "shop": "福福トレカ ガンダムカード専門店",
+      "price": 29800,
+      "shop": "Tier One",
       "shopCount": 3,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/1276",
+      "productUrl": "https://tier-one.jp/view/item/000000013972?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000013972?category_page_id=gcg",
+          "price": 29800,
+          "stock": 1
+        },
         {
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/1276",
           "price": 34000,
-          "stock": 1
-        },
-        {
-          "id": "tierone",
-          "name": "Tier One",
-          "url": "https://tier-one.jp/view/item/000000013972?category_page_id=gcg",
-          "price": 36800,
           "stock": 1
         },
         {
@@ -489,37 +489,30 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD03-035",
       "status": "green",
       "availability": "in_stock",
-      "price": 38000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 2,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/1275",
+      "price": 37800,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000013973?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/1275",
-          "price": 38000,
-          "stock": 1
-        },
         {
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000013973?category_page_id=gcg",
-          "price": 54800,
+          "price": 37800,
           "stock": 2
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD04-017",
@@ -549,7 +542,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD04-050",
@@ -579,13 +572,13 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD05-002",
       "status": "blue",
       "availability": "in_stock",
-      "price": 335000,
+      "price": 328000,
       "shop": "Tier One",
       "shopCount": 1,
       "productUrl": "https://tier-one.jp/view/item/000000017024?category_page_id=gcg",
@@ -595,20 +588,20 @@
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000017024?category_page_id=gcg",
-          "price": 335000,
+          "price": 328000,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD05-017",
       "status": "green",
       "availability": "in_stock",
-      "price": 279980,
+      "price": 229980,
       "shop": "カードランド",
       "shopCount": 1,
       "productUrl": "https://www.cardland-kamata.com/product-list/917",
@@ -618,14 +611,14 @@
           "id": "cardland",
           "name": "カードランド",
           "url": "https://www.cardland-kamata.com/product-list/917",
-          "price": 279980,
+          "price": 229980,
           "stock": 2
         }
       ],
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD05-033",
@@ -640,13 +633,13 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD05-049",
       "status": "green",
       "availability": "in_stock",
-      "price": 149980,
+      "price": 99980,
       "shop": "カードランド",
       "shopCount": 1,
       "productUrl": "https://www.cardland-kamata.com/product-list/917",
@@ -656,14 +649,14 @@
           "id": "cardland",
           "name": "カードランド",
           "url": "https://www.cardland-kamata.com/product-list/917",
-          "price": 149980,
+          "price": 99980,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "LRpp-GD05-067",
@@ -678,7 +671,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "NTC25M1-GD01-067",
@@ -701,14 +694,14 @@
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000012428?category_page_id=gcg",
-          "price": 238000,
+          "price": 248000,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "NTC25M2-GD02-069",
@@ -731,13 +724,13 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "NTC25M3-GD02-036",
       "status": "green",
       "availability": "in_stock",
-      "price": 158000,
+      "price": 148000,
       "shop": "Tier One",
       "shopCount": 1,
       "productUrl": "https://tier-one.jp/view/item/000000013258?category_page_id=gcg",
@@ -747,14 +740,14 @@
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000013258?category_page_id=gcg",
-          "price": 158000,
+          "price": 148000,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "NTC26M1-GD01-065",
@@ -769,7 +762,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "NTC26M2-ST07-005",
@@ -799,13 +792,13 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "NTC26M3-GD03-050",
       "status": "green",
       "availability": "in_stock",
-      "price": 94800,
+      "price": 89800,
       "shop": "Tier One",
       "shopCount": 1,
       "productUrl": "https://tier-one.jp/view/item/000000015405?category_page_id=gcg",
@@ -815,20 +808,20 @@
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000015405?category_page_id=gcg",
-          "price": 94800,
+          "price": 89800,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "NTC26M4-GD04-066",
       "status": "green",
       "availability": "in_stock",
-      "price": 118000,
+      "price": 148000,
       "shop": "Tier One",
       "shopCount": 1,
       "productUrl": "https://tier-one.jp/view/item/000000016198?category_page_id=gcg",
@@ -838,14 +831,14 @@
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000016198?category_page_id=gcg",
-          "price": 118000,
+          "price": 148000,
           "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-ST01-001",
@@ -860,7 +853,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-ST01-011",
@@ -883,7 +876,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-ST02-001",
@@ -898,37 +891,37 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-ST03-011",
       "status": "green",
       "availability": "in_stock",
-      "price": 99800,
-      "shop": "Tier One",
+      "price": 100000,
+      "shop": "福福トレカ ガンダムカード専門店",
       "shopCount": 2,
-      "productUrl": "https://tier-one.jp/view/item/000000010450?category_page_id=gcglm",
+      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/91",
       "lastProductUrl": "https://www.c-labo-online.jp/product-list/3110",
       "inventories": [
-        {
-          "id": "tierone",
-          "name": "Tier One",
-          "url": "https://tier-one.jp/view/item/000000010450?category_page_id=gcglm",
-          "price": 99800,
-          "stock": 1
-        },
         {
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/91",
           "price": 100000,
           "stock": 1
+        },
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000010450?category_page_id=gcglm",
+          "price": 108000,
+          "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-ST04-001",
@@ -958,7 +951,7 @@
           "id": "tierone",
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000010451?category_page_id=gcglm",
-          "price": 238000,
+          "price": 268000,
           "stock": 1
         },
         {
@@ -972,7 +965,7 @@
       "outOfStockConfirmations": 0,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-GD01-004",
@@ -995,37 +988,37 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-GD01-026",
       "status": "green",
       "availability": "in_stock",
-      "price": 108000,
-      "shop": "Tier One",
+      "price": 140000,
+      "shop": "福福トレカ ガンダムカード専門店",
       "shopCount": 2,
-      "productUrl": "https://tier-one.jp/view/item/000000010453?category_page_id=gcglm",
+      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/177",
       "lastProductUrl": "https://tier-one.jp/view/item/000000010453?category_page_id=gcglmgd",
       "inventories": [
-        {
-          "id": "tierone",
-          "name": "Tier One",
-          "url": "https://tier-one.jp/view/item/000000010453?category_page_id=gcglm",
-          "price": 108000,
-          "stock": 1
-        },
         {
           "id": "fukufuku",
           "name": "福福トレカ ガンダムカード専門店",
           "url": "https://gundam.fukufukutoreka.com/products/detail/177",
           "price": 140000,
           "stock": 1
+        },
+        {
+          "id": "tierone",
+          "name": "Tier One",
+          "url": "https://tier-one.jp/view/item/000000010453?category_page_id=gcglm",
+          "price": 148000,
+          "stock": 1
         }
       ],
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-GD01-070",
@@ -1040,7 +1033,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-GD01-088",
@@ -1070,7 +1063,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-GD01-100",
@@ -1093,7 +1086,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-GD01-107",
@@ -1116,7 +1109,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     },
     {
       "id": "βbeta-GD01-118",
@@ -1139,7 +1132,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-09T06:00:25.777592Z"
+      "checkedAt": "2026-10-09T13:08:33.071010Z"
     }
   ]
 }
