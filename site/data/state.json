@@ -1,15 +1,15 @@
 {
   "schema": 2,
   "matcherVersion": "v1.14-ntc-winners-1",
-  "generatedAt": "2026-10-14T19:00:11.094784Z",
+  "generatedAt": "2026-10-15T10:06:19.307462Z",
   "scan": {
     "configuredShops": 15,
-    "shopsReached": 10,
-    "shopsWithExactHits": 5,
-    "pagesRequested": 45,
+    "shopsReached": 9,
+    "shopsWithExactHits": 4,
+    "pagesRequested": 43,
     "intervalMinutes": 30,
     "freshHours": 6.0,
-    "lastAttemptAt": "2026-10-14T19:00:11.094784Z",
+    "lastAttemptAt": "2026-10-15T10:06:19.307462Z",
     "policy": "sequential; >= 4.0s between requests per shop; robots check; 403/429 circuit breaker; no visitor-triggered scraping; no purchase automation",
     "shops": [
       {
@@ -22,7 +22,7 @@
         "pagesOk": 14,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "cardlabo",
@@ -34,7 +34,7 @@
         "pagesOk": 6,
         "exactCards": 25,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "amenity",
@@ -46,7 +46,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "fullcomp",
@@ -58,7 +58,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "gunhappy",
@@ -70,7 +70,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots.txt blocks configured catalog URL",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "projectcore",
@@ -82,7 +82,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "pao",
@@ -94,7 +94,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "spiral",
@@ -106,7 +106,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "cardmax",
@@ -118,7 +118,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "bankoku",
@@ -130,7 +130,7 @@
         "pagesOk": 2,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "mercard",
@@ -142,7 +142,7 @@
         "pagesOk": 4,
         "exactCards": 7,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "hobbystation",
@@ -154,7 +154,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "advantage",
@@ -166,7 +166,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "193net",
@@ -178,7 +178,7 @@
         "pagesOk": 1,
         "exactCards": 0,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "tierone",
@@ -190,7 +190,7 @@
         "pagesOk": 6,
         "exactCards": 27,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "mintmall",
@@ -202,7 +202,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "cardland",
@@ -214,7 +214,7 @@
         "pagesOk": 7,
         "exactCards": 31,
         "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "dorasuta",
@@ -226,7 +226,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "playze",
@@ -238,7 +238,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "cardkingdom",
@@ -250,7 +250,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "torekaoh",
@@ -262,19 +262,19 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "fukufuku",
         "name": "福福トレカ ガンダムカード専門店",
         "homeUrl": "https://gundam.fukufukutoreka.com/",
         "enabled": true,
-        "robotsAllowed": true,
-        "pagesRequested": 2,
-        "pagesOk": 2,
-        "exactCards": 13,
-        "error": null,
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "robotsAllowed": false,
+        "pagesRequested": 0,
+        "pagesOk": 0,
+        "exactCards": 0,
+        "error": "robots check failed: ConnectTimeout",
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "manzokuya",
@@ -286,7 +286,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "dmmmyca",
@@ -298,7 +298,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "disabled in config",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "yuyutei",
@@ -310,7 +310,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 403",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       },
       {
         "id": "torecolo",
@@ -322,7 +322,7 @@
         "pagesOk": 0,
         "exactCards": 0,
         "error": "robots HTTP 406; safety stop",
-        "checkedAt": "2026-10-14T19:00:11.094784Z"
+        "checkedAt": "2026-10-15T10:06:19.307462Z"
       }
     ]
   },
@@ -331,19 +331,12 @@
       "id": "LRpp-GD01-001",
       "status": "green",
       "availability": "in_stock",
-      "price": 100000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 2,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/211",
+      "price": 148000,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000012224?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/211",
-          "price": 100000,
-          "stock": 1
-        },
         {
           "id": "tierone",
           "name": "Tier One",
@@ -355,25 +348,18 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD01-067",
       "status": "green",
       "availability": "in_stock",
-      "price": 48000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 2,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/291",
+      "price": 51800,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000016555?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/291",
-          "price": 48000,
-          "stock": 1
-        },
         {
           "id": "tierone",
           "name": "Tier One",
@@ -385,7 +371,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD02-038",
@@ -393,7 +379,7 @@
       "availability": "in_stock",
       "price": 39980,
       "shop": "カードランド",
-      "shopCount": 2,
+      "shopCount": 1,
       "productUrl": "https://www.cardland-kamata.com/product-list/832",
       "lastProductUrl": null,
       "inventories": [
@@ -403,19 +389,12 @@
           "url": "https://www.cardland-kamata.com/product-list/832",
           "price": 39980,
           "stock": 3
-        },
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/783",
-          "price": 40000,
-          "stock": 1
         }
       ],
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD02-054",
@@ -423,7 +402,7 @@
       "availability": "in_stock",
       "price": 59800,
       "shop": "Tier One",
-      "shopCount": 3,
+      "shopCount": 2,
       "productUrl": "https://tier-one.jp/view/item/000000012985?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
@@ -432,13 +411,6 @@
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000012985?category_page_id=gcg",
           "price": 59800,
-          "stock": 1
-        },
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/784",
-          "price": 60000,
           "stock": 1
         },
         {
@@ -452,7 +424,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD03-017",
@@ -460,7 +432,7 @@
       "availability": "in_stock",
       "price": 29800,
       "shop": "Tier One",
-      "shopCount": 3,
+      "shopCount": 2,
       "productUrl": "https://tier-one.jp/view/item/000000013972?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
@@ -469,13 +441,6 @@
           "name": "Tier One",
           "url": "https://tier-one.jp/view/item/000000013972?category_page_id=gcg",
           "price": 29800,
-          "stock": 1
-        },
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/1276",
-          "price": 32000,
           "stock": 1
         },
         {
@@ -489,7 +454,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD03-035",
@@ -497,7 +462,7 @@
       "availability": "in_stock",
       "price": 37800,
       "shop": "Tier One",
-      "shopCount": 2,
+      "shopCount": 1,
       "productUrl": "https://tier-one.jp/view/item/000000013973?category_page_id=gcg",
       "lastProductUrl": null,
       "inventories": [
@@ -507,19 +472,12 @@
           "url": "https://tier-one.jp/view/item/000000013973?category_page_id=gcg",
           "price": 37800,
           "stock": 2
-        },
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/1275",
-          "price": 40000,
-          "stock": 1
         }
       ],
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD04-017",
@@ -527,7 +485,7 @@
       "availability": "in_stock",
       "price": 49980,
       "shop": "カードランド",
-      "shopCount": 2,
+      "shopCount": 1,
       "productUrl": "https://www.cardland-kamata.com/product-list/906",
       "lastProductUrl": null,
       "inventories": [
@@ -537,37 +495,23 @@
           "url": "https://www.cardland-kamata.com/product-list/906",
           "price": 49980,
           "stock": 1
-        },
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/1788",
-          "price": 52000,
-          "stock": 1
         }
       ],
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD04-050",
       "status": "green",
       "availability": "in_stock",
-      "price": 110000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 2,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/1789",
+      "price": 138000,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000015208?category_page_id=gcg",
       "lastProductUrl": "https://www.c-labo-online.jp/product-list/3373/0/photo?Submit=1&num=120&sort=price-desc",
       "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/1789",
-          "price": 110000,
-          "stock": 1
-        },
         {
           "id": "tierone",
           "name": "Tier One",
@@ -579,7 +523,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD05-002",
@@ -602,7 +546,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD05-017",
@@ -625,7 +569,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD05-033",
@@ -648,7 +592,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD05-049",
@@ -671,7 +615,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "LRpp-GD05-067",
@@ -686,7 +630,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "NTC25M1-GD01-067",
@@ -716,7 +660,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "NTC25M2-GD02-069",
@@ -739,7 +683,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "NTC25M3-GD02-036",
@@ -762,7 +706,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "NTC26M1-GD01-065",
@@ -777,7 +721,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "NTC26M2-ST07-005",
@@ -807,7 +751,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "NTC26M3-GD03-050",
@@ -830,7 +774,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "NTC26M4-GD04-066",
@@ -860,7 +804,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-ST01-001",
@@ -875,7 +819,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-ST01-011",
@@ -898,7 +842,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-ST02-001",
@@ -913,25 +857,18 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-ST03-011",
       "status": "green",
       "availability": "in_stock",
-      "price": 100000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 2,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/91",
+      "price": 108000,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000010450?category_page_id=gcglm",
       "lastProductUrl": "https://www.c-labo-online.jp/product-list/3110",
       "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/91",
-          "price": 100000,
-          "stock": 1
-        },
         {
           "id": "tierone",
           "name": "Tier One",
@@ -943,38 +880,31 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-ST04-001",
       "status": "green",
       "availability": "in_stock",
-      "price": 220000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 4,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/126",
+      "price": 248000,
+      "shop": "カードラボ",
+      "shopCount": 3,
+      "productUrl": "https://www.c-labo-online.jp/product-list/3110",
       "lastProductUrl": null,
       "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/126",
-          "price": 220000,
-          "stock": 2
-        },
-        {
-          "id": "cardland",
-          "name": "カードランド",
-          "url": "https://www.cardland-kamata.com/product-list/760",
-          "price": 229980,
-          "stock": 2
-        },
         {
           "id": "cardlabo",
           "name": "カードラボ",
           "url": "https://www.c-labo-online.jp/product-list/3110",
           "price": 248000,
           "stock": 1
+        },
+        {
+          "id": "cardland",
+          "name": "カードランド",
+          "url": "https://www.cardland-kamata.com/product-list/760",
+          "price": 249980,
+          "stock": 2
         },
         {
           "id": "tierone",
@@ -987,48 +917,33 @@
       "outOfStockConfirmations": 0,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-GD01-004",
-      "status": "green",
-      "availability": "in_stock",
-      "price": 33000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 1,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/167",
+      "status": "orange",
+      "availability": "out_of_stock",
+      "price": null,
+      "shop": "",
+      "shopCount": 0,
+      "productUrl": null,
       "lastProductUrl": "https://www.c-labo-online.jp/product-list/3110",
-      "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/167",
-          "price": 33000,
-          "stock": 1
-        }
-      ],
+      "inventories": [],
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-GD01-026",
       "status": "green",
       "availability": "in_stock",
-      "price": 140000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 2,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/177",
+      "price": 148000,
+      "shop": "Tier One",
+      "shopCount": 1,
+      "productUrl": "https://tier-one.jp/view/item/000000010453?category_page_id=gcglm",
       "lastProductUrl": "https://tier-one.jp/view/item/000000010453?category_page_id=gcglmgd",
       "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/177",
-          "price": 140000,
-          "stock": 2
-        },
         {
           "id": "tierone",
           "name": "Tier One",
@@ -1040,7 +955,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-GD01-070",
@@ -1055,7 +970,7 @@
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-GD01-088",
@@ -1085,7 +1000,7 @@
       "outOfStockConfirmations": 1,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-GD01-100",
@@ -1108,7 +1023,7 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-GD01-107",
@@ -1131,30 +1046,22 @@
       "outOfStockConfirmations": 2,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     },
     {
       "id": "βbeta-GD01-118",
-      "status": "green",
-      "availability": "in_stock",
-      "price": 620000,
-      "shop": "福福トレカ ガンダムカード専門店",
-      "shopCount": 1,
-      "productUrl": "https://gundam.fukufukutoreka.com/products/detail/205",
+      "status": "orange",
+      "availability": "out_of_stock",
+      "price": null,
+      "shop": "",
+      "shopCount": 0,
+      "productUrl": null,
       "lastProductUrl": "https://www.c-labo-online.jp/product-list/3110",
-      "inventories": [
-        {
-          "id": "fukufuku",
-          "name": "福福トレカ ガンダムカード専門店",
-          "url": "https://gundam.fukufukutoreka.com/products/detail/205",
-          "price": 620000,
-          "stock": 1
-        }
-      ],
+      "inventories": [],
       "outOfStockConfirmations": 3,
       "scanConfidence": "exact",
       "scanError": null,
-      "checkedAt": "2026-10-14T19:00:11.094784Z"
+      "checkedAt": "2026-10-15T10:06:19.307462Z"
     }
   ]
 }
