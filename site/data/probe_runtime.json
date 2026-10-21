@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T11:41:04.571027Z",
+  "generatedAt": "2026-10-21T16:09:11.350072Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -8,16 +8,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8906",
-          "bytes": 1746
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         },
         "beta": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=877",
-          "bytes": 1746
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         }
       }
     },
@@ -64,7 +60,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 311681
+          "bytes": 311748
         },
         "beta": {
           "status": "not_configured",
@@ -79,13 +75,11 @@
       "samples": {
         "lrpp": {
           "status": "robots_hold",
-          "reason": "robots parsed"
+          "reason": "robots HTTP 503"
         },
         "beta": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 77793
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         }
       }
     },
@@ -110,10 +104,8 @@
       "monitorStatus": "verified_partial",
       "samples": {
         "lrpp": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 668167
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         },
         "beta": {
           "status": "not_configured",
@@ -159,8 +151,8 @@
         "lrpp": {
           "status": "page_ok_sample_missing",
           "http": 200,
-          "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 789438
+          "url": "https://torekanobankoku.com/password",
+          "bytes": 99030
         },
         "beta": {
           "status": "not_configured",
@@ -193,16 +185,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://www.hobbystation-single.jp/gc/product/list",
-          "bytes": 2138
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         },
         "beta": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://www.hobbystation-single.jp/gc/product/list",
-          "bytes": 2138
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         }
       }
     },
@@ -227,10 +215,8 @@
       "monitorStatus": "verified_partial",
       "samples": {
         "lrpp": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 984581
+          "status": "http_error",
+          "reason": "HTTP 503"
         },
         "beta": {
           "status": "not_configured",
@@ -244,16 +230,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120669
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         },
         "beta": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 277696
+          "status": "robots_hold",
+          "reason": "robots HTTP 503"
         }
       }
     },
@@ -357,16 +339,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 107654
+          "status": "http_error",
+          "reason": "HTTP 503"
         },
         "beta": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
-          "bytes": 273511
+          "status": "http_error",
+          "reason": "HTTP 503"
         }
       }
     },
@@ -406,12 +384,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "robots_hold",
-          "reason": "robots HTTP 403"
+          "status": "http_error",
+          "reason": "HTTP 503"
         },
         "beta": {
-          "status": "robots_hold",
-          "reason": "robots HTTP 403"
+          "status": "http_error",
+          "reason": "HTTP 503"
         }
       }
     },
