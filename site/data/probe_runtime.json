@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:15:30.248081Z",
+  "generatedAt": "2026-10-21T23:28:12.960794Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -81,7 +81,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 77765
+          "bytes": 77733
         }
       }
     },
@@ -109,7 +109,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 668205
+          "bytes": 668163
         },
         "beta": {
           "status": "not_configured",
@@ -156,7 +156,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/password",
-          "bytes": 88790
+          "bytes": 88793
         },
         "beta": {
           "status": "not_configured",
@@ -237,13 +237,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120697
+          "bytes": 120711
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 277682
+          "bytes": 277610
         }
       }
     },
