@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T12:32:47.813263Z",
+  "generatedAt": "2026-10-22T17:36:05.789803Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -81,7 +81,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 77737
+          "bytes": 77771
         }
       }
     },
@@ -109,7 +109,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 668114
+          "bytes": 668164
         },
         "beta": {
           "status": "not_configured",
@@ -156,7 +156,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 789401
+          "bytes": 786817
         },
         "beta": {
           "status": "not_configured",
@@ -222,7 +222,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 984495
+          "bytes": 984512
         },
         "beta": {
           "status": "not_configured",
@@ -239,13 +239,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120643
+          "bytes": 120697
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 273929
+          "bytes": 273695
         }
       }
     },
@@ -352,13 +352,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 194580
+          "bytes": 107517
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
-          "bytes": 273362
+          "bytes": 187483
         }
       }
     },
