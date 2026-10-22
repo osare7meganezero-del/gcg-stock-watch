@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T01:48:29.528616Z",
+  "generatedAt": "2026-10-22T06:40:23.097296Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -26,13 +26,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "bytes": 2059972
+          "bytes": 2059952
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "bytes": 1823708
+          "bytes": 1823688
         }
       }
     },
@@ -60,7 +60,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 302665
+          "bytes": 305449
         },
         "beta": {
           "status": "not_configured",
@@ -81,7 +81,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 77783
+          "bytes": 77789
         }
       }
     },
@@ -109,7 +109,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 668187
+          "bytes": 668133
         },
         "beta": {
           "status": "not_configured",
@@ -155,8 +155,8 @@
         "lrpp": {
           "status": "page_ok_sample_missing",
           "http": 200,
-          "url": "https://torekanobankoku.com/password",
-          "bytes": 88793
+          "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
+          "bytes": 789401
         },
         "beta": {
           "status": "not_configured",
@@ -219,8 +219,10 @@
       "monitorStatus": "verified_partial",
       "samples": {
         "lrpp": {
-          "status": "http_error",
-          "reason": "HTTP 503"
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://193tcg.com/products/list?category_id=2392",
+          "bytes": 984517
         },
         "beta": {
           "status": "not_configured",
@@ -237,13 +239,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120693
+          "bytes": 120731
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 277654
+          "bytes": 277644
         }
       }
     },
