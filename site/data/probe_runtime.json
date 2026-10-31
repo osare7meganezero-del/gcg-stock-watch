@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T02:32:45.238840Z",
+  "generatedAt": "2026-10-31T08:50:49.401201Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -85,7 +85,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 78146
+          "bytes": 78166
         }
       }
     },
@@ -113,7 +113,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 678914
+          "bytes": 679268
         },
         "beta": {
           "status": "not_configured",
@@ -230,7 +230,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 985997
+          "bytes": 986085
         },
         "beta": {
           "status": "not_configured",
@@ -247,13 +247,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 121192
+          "bytes": 121108
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 272634
+          "bytes": 272676
         }
       }
     },
@@ -281,7 +281,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://www.cardland-kamata.com/product-list/759",
-          "bytes": 786387
+          "bytes": 786378
         },
         "beta": {
           "status": "sample_found",
@@ -360,7 +360,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 194966
+          "bytes": 108341
         },
         "beta": {
           "status": "sample_found",
