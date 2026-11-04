@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T02:42:02.566320Z",
+  "generatedAt": "2026-11-04T17:58:31.375530Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -30,13 +30,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "bytes": 2075245
+          "bytes": 2072812
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://www.c-labo-online.jp/product-list/3110",
-          "bytes": 1836015
+          "bytes": 1835858
         }
       }
     },
@@ -64,7 +64,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 310921
+          "bytes": 311947
         },
         "beta": {
           "status": "not_configured",
@@ -85,7 +85,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 78594
+          "bytes": 78540
         }
       }
     },
@@ -113,7 +113,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 666620
+          "bytes": 666610
         },
         "beta": {
           "status": "not_configured",
@@ -160,7 +160,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 614775
+          "bytes": 614584
         },
         "beta": {
           "status": "not_configured",
@@ -230,7 +230,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 987834
+          "bytes": 989193
         },
         "beta": {
           "status": "not_configured",
@@ -247,13 +247,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120285
+          "bytes": 120371
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 276906
+          "bytes": 275766
         }
       }
     },
@@ -281,7 +281,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://www.cardland-kamata.com/product-list/759",
-          "bytes": 787182
+          "bytes": 787990
         },
         "beta": {
           "status": "sample_found",
@@ -360,13 +360,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 195009
+          "bytes": 108176
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
-          "bytes": 273782
+          "bytes": 273861
         }
       }
     },
