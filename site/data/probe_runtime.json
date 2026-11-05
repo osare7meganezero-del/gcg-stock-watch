@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T11:39:37.169875Z",
+  "generatedAt": "2026-11-05T19:05:18.896910Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -85,7 +85,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 78927
+          "bytes": 78985
         }
       }
     },
@@ -113,7 +113,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 666665
+          "bytes": 666729
         },
         "beta": {
           "status": "not_configured",
@@ -160,7 +160,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 614579
+          "bytes": 614905
         },
         "beta": {
           "status": "not_configured",
@@ -230,7 +230,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 989203
+          "bytes": 989221
         },
         "beta": {
           "status": "not_configured",
@@ -247,13 +247,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120291
+          "bytes": 120361
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 276836
+          "bytes": 276914
         }
       }
     },
