@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T09:44:10.551120Z",
+  "generatedAt": "2026-11-09T20:14:31.353314Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -27,16 +27,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
-          "bytes": 2072622
+          "status": "request_error",
+          "reason": "ReadTimeout: HTTPSConnectionPool(host='www.c-labo-online.jp', port=443): Read timed out. (read timeout=20)"
         },
         "beta": {
-          "status": "sample_found",
-          "http": 200,
-          "url": "https://www.c-labo-online.jp/product-list/3110",
-          "bytes": 1837381
+          "status": "request_error",
+          "reason": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
         }
       }
     },
@@ -64,7 +60,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 322403
+          "bytes": 322409
         },
         "beta": {
           "status": "not_configured",
@@ -85,7 +81,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 79078
+          "bytes": 79154
         }
       }
     },
@@ -113,7 +109,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 667009
+          "bytes": 668724
         },
         "beta": {
           "status": "not_configured",
@@ -160,7 +156,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://torekanobankoku.com/collections/gd05-freedom-ascension",
-          "bytes": 625620
+          "bytes": 625624
         },
         "beta": {
           "status": "not_configured",
@@ -230,7 +226,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 989107
+          "bytes": 989221
         },
         "beta": {
           "status": "not_configured",
@@ -247,13 +243,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120502
+          "bytes": 120390
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 278155
+          "bytes": 278099
         }
       }
     },
@@ -360,13 +356,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
-          "bytes": 195296
+          "bytes": 195107
         },
         "beta": {
           "status": "sample_found",
           "http": 200,
           "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
-          "bytes": 274194
+          "bytes": 274175
         }
       }
     },
