@@ -1,0 +1,669 @@
+[
+  {
+    "id": "bigweb",
+    "name": "BIGWEB",
+    "homeUrl": "https://www.bigweb.co.jp/ja/products/gundamgcg/",
+    "urls": [
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8489&is_box=0",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=1135",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD03-017",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/cardViewer/3518663",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8789&is_box=0",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8906&is_box=0",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=877",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD01-067",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD02-069",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD02-036",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD01-065",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=ST07-005",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD03-050",
+      "https://www.bigweb.co.jp/ja/products/gundamgcg/list?is_box=0&is_purchase=0&is_supply=0&name=GD04-066"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "notes": "収録・レアリティ・カード番号まで一致させる。特価/傷あり除外。",
+    "negativeWins": true,
+    "forbidUrlContains": [
+      "/purchase/"
+    ],
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル",
+      "NTC優勝"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / NTC優勝7種はカード番号検索ページ内の「ニュータイプチャレンジ」商品ブロックだけ厳密一致。通常/LR+等の同番号別商品は除外。",
+    "probeUrls": {
+      "lrpp": [
+        "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8906"
+      ],
+      "beta": [
+        "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=877"
+      ]
+    }
+  },
+  {
+    "id": "cardlabo",
+    "name": "カードラボ",
+    "homeUrl": "https://www.c-labo-online.jp/",
+    "urls": [
+      "https://www.c-labo-online.jp/product-list/3136/0/photo?Submit=1&num=120&sort=price-desc",
+      "https://www.c-labo-online.jp/product-list/3204/0/photo?Submit=1&num=120&sort=price-desc",
+      "https://www.c-labo-online.jp/product-list/3295/0/photo?Submit=1&num=120&sort=price-desc",
+      "https://www.c-labo-online.jp/product-list/3373/0/photo?Submit=1&num=120&sort=price-desc",
+      "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc",
+      "https://www.c-labo-online.jp/product-list/3110"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "notes": "プレイ用特価品は通常在庫から除外。",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "probeUrls": {
+      "lrpp": [
+        "https://www.c-labo-online.jp/product-list/3453/0/photo?Submit=1&num=120&sort=price-desc"
+      ],
+      "beta": [
+        "https://www.c-labo-online.jp/product-list/3110"
+      ]
+    }
+  },
+  {
+    "id": "amenity",
+    "name": "アメニティードリーム",
+    "homeUrl": "https://www.amenitydream.com/",
+    "urls": [
+      "https://www.amenitydream.com/product-list/6911/0/?sort=price-desc",
+      "https://www.amenitydream.com/product-list/7068/0/?sort=price-desc",
+      "https://www.amenitydream.com/product-list/7219/0/?sort=price-desc",
+      "https://www.amenitydream.com/product-list/7553/0/?sort=price-desc",
+      "https://www.amenitydream.com/product-list/6894/0/?sort=price-desc"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "公開ページは取得できるが、2枚の対象バリエーション（LR++ / β LR+）を販売側で厳密に確認できず。通常LR等との誤一致を防ぐため保留。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "fullcomp",
+    "name": "フルコンプ ONLINE SHOP",
+    "homeUrl": "https://shopping.fullcomp.jp/collections/gcg",
+    "urls": [
+      "https://shopping.fullcomp.jp/collections/149-01?sort_by=price-descending",
+      "https://shopping.fullcomp.jp/collections/gcg_gd05?sort_by=price-descending",
+      "https://shopping.fullcomp.jp/collections/gcg_gd04?sort_by=price-descending",
+      "https://shopping.fullcomp.jp/collections/gcg"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "notes": "パラレル++表記をLR++相当として照合。",
+    "negativeWins": true,
+    "monitorStatus": "verified_partial",
+    "supportedGroups": [
+      "LR++"
+    ],
+    "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+    "probeUrls": {
+      "lrpp": [
+        "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358"
+      ],
+      "beta": []
+    }
+  },
+  {
+    "id": "gunhappy",
+    "name": "ガンハッピー",
+    "homeUrl": "https://www.gun-happy.com/",
+    "urls": [
+      "https://www.gun-happy.com/",
+      "https://www.gun-happy.com/view/category/parallel",
+      "https://www.gun-happy.com/view/category/ct18",
+      "https://www.gun-happy.com/view/category/promo?sort=price_high"
+    ],
+    "enabled": true,
+    "adapter": "catalog_paged",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル",
+      "NTC優勝"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / プロモカテゴリのNTC商品をカード番号＋ニュータイプチャレンジ表記で厳密一致。",
+    "probeUrls": {
+      "lrpp": [
+        "https://www.gun-happy.com/view/category/all_items?page=37&sort=recommend"
+      ],
+      "beta": [
+        "https://gun-happy.com/view/item/000000000408"
+      ]
+    }
+  },
+  {
+    "id": "projectcore",
+    "name": "PROJECT CORE",
+    "homeUrl": "https://www.projectcore.jp/",
+    "urls": [
+      "https://www.projectcore.jp/product-list/2335"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "販売ページ自体は確認できるが、テスト2枚の対象バリエーションを厳密に発見できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "pao",
+    "name": "通販のPAO",
+    "homeUrl": "https://pao-onlineshop.com/",
+    "urls": [
+      "https://pao-onlineshop.com/view/category/GCG",
+      "https://pao-onlineshop.com/view/category/GD05"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "notes": "傷あり特価カテゴリは除外。",
+    "negativeWins": true,
+    "monitorStatus": "verified_partial",
+    "supportedGroups": [
+      "LR++"
+    ],
+    "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+    "probeUrls": {
+      "lrpp": [
+        "https://pao-onlineshop.com/view/category/GCG"
+      ],
+      "beta": []
+    }
+  },
+  {
+    "id": "spiral",
+    "name": "カードショップすぱいらる",
+    "homeUrl": "https://www.card-spiral.jp/",
+    "urls": [
+      "https://www.card-spiral.jp/product-list/333",
+      "https://www.card-spiral.jp/product-list"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "静的ページは取得可能だが、テスト2枚の対象バリエーションの厳密一致を今回確認できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "cardmax",
+    "name": "CARDMAX",
+    "homeUrl": "https://www.akiba.cardmax.jp/",
+    "urls": [
+      "https://www.akiba.cardmax.jp/shopbrand/ct1690/"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "カテゴリは確認できるが、テスト2枚の対象商品と在庫信号の安定した組み合わせを確認できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "bankoku",
+    "name": "トレカの万国",
+    "homeUrl": "https://torekanobankoku.com/",
+    "urls": [
+      "https://torekanobankoku.com/collections/gd05-freedom-ascension",
+      "https://torekanobankoku.com/pages/gundam"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "negativeWins": true,
+    "monitorStatus": "verified_partial",
+    "supportedGroups": [
+      "LR++"
+    ],
+    "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+    "probeUrls": {
+      "lrpp": [
+        "https://torekanobankoku.com/collections/gd05-freedom-ascension"
+      ],
+      "beta": []
+    }
+  },
+  {
+    "id": "mercard",
+    "name": "メルカード ガンダムカードEC店",
+    "homeUrl": "https://www.mercardgundam.jp/",
+    "urls": [
+      "https://www.mercardgundam.jp/product-group/47?num=60",
+      "https://www.mercardgundam.jp/product-group/2",
+      "https://www.mercardgundam.jp/product-list/5",
+      "https://www.mercardgundam.jp/product-group/37"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "notes": "特価品は通常在庫から除外。",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル",
+      "NTC優勝"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / ニュータイプチャレンジ専用カテゴリ(product-group/37)をNTC優勝の監視対象に追加。",
+    "probeUrls": {
+      "lrpp": [
+        "https://www.mercardgundam.jp/product/2483"
+      ],
+      "beta": [
+        "https://www.mercardgundam.jp/product/9"
+      ]
+    },
+    "ntcScopedUrlContains": [
+      "/product-group/37"
+    ]
+  },
+  {
+    "id": "hobbystation",
+    "name": "ホビーステーション シングル通販",
+    "homeUrl": "https://www.hobbystation-single.jp/",
+    "urls": [
+      "https://www.hobbystation-single.jp/gc/product/list"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル",
+      "NTC優勝"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / 全商品ページでNTC優勝商品をカード番号＋ニュータイプチャレンジ表記で厳密一致。",
+    "probeUrls": {
+      "lrpp": [
+        "https://www.hobbystation-single.jp/gc/product/list"
+      ],
+      "beta": [
+        "https://www.hobbystation-single.jp/gc/product/list"
+      ]
+    }
+  },
+  {
+    "id": "advantage",
+    "name": "TCG通販アドバンテージ",
+    "homeUrl": "https://www.advantagetcg.jp/",
+    "urls": [
+      "https://www.advantagetcg.jp/product-list/2365"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "β通常版などは見えるが、β LR+テスト対象とLR++テスト対象の双方を厳密に確認できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "193net",
+    "name": "193net",
+    "homeUrl": "https://193tcg.com/",
+    "urls": [
+      "https://193tcg.com/products/list?category_id=2392"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "negativeWins": true,
+    "forbidUrlContains": [
+      "/buy/"
+    ],
+    "monitorStatus": "verified_partial",
+    "supportedGroups": [
+      "LR++"
+    ],
+    "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+    "probeUrls": {
+      "lrpp": [
+        "https://193tcg.com/products/list?category_id=2392"
+      ],
+      "beta": []
+    }
+  },
+  {
+    "id": "tierone",
+    "name": "Tier One",
+    "homeUrl": "https://tier-one.jp/",
+    "urls": [
+      "https://tier-one.jp/view/category/gcg?sort=price_high",
+      "https://tier-one.jp/view/category/gcggd",
+      "https://tier-one.jp/view/category/gcglm",
+      "https://tier-one.jp/view/category/gcglmgd",
+      "https://tier-one.jp/view/category/gcglmst",
+      "https://tier-one.jp/view/category/gcgpnc"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル",
+      "NTC優勝"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。 / ニュータイプチャレンジ専用カテゴリ(gcgpnc)をNTC優勝の監視対象に追加。",
+    "probeUrls": {
+      "lrpp": [
+        "https://tier-one.jp/view/item/000000016218"
+      ],
+      "beta": [
+        "https://tier-one.jp/view/category/gcg"
+      ]
+    },
+    "betaScopedUrlContains": [
+      "/view/category/gcglm",
+      "/view/category/gcglmgd",
+      "/view/category/gcglmst"
+    ],
+    "notes": "Tier OneのVer.βカテゴリは商品行にVer.βが出ないため、β専用カテゴリURL＋カード番号＋plusレアリティ＋パラレルを同一商品行で照合。価格/在庫/リンクは同一商品行のみ採用。",
+    "ntcScopedUrlContains": [
+      "/view/category/gcgpnc"
+    ]
+  },
+  {
+    "id": "mintmall",
+    "name": "MINTモール",
+    "homeUrl": "https://www.mint-mall.net/",
+    "urls": [
+      "https://www.mint-mall.net/"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "複数出品者型で販売在庫の正規化が複雑。2枚のテスト対象を安定して同一ルールで判定できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "cardland",
+    "name": "カードランド",
+    "homeUrl": "https://www.cardland-kamata.com/product-list/759",
+    "urls": [
+      "https://www.cardland-kamata.com/product-list/818",
+      "https://www.cardland-kamata.com/product-list/832",
+      "https://www.cardland-kamata.com/product-list/897",
+      "https://www.cardland-kamata.com/product-list/906",
+      "https://www.cardland-kamata.com/product-list/917",
+      "https://www.cardland-kamata.com/product-list/760",
+      "https://www.cardland-kamata.com/product-list/817"
+    ],
+    "enabled": true,
+    "adapter": "cardland_exact",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル",
+      "NTC優勝"
+    ],
+    "auditNote": "代表LR++はGD05一覧で在庫数/在庫なしを確認。β版はウイングガンダムのVer.β/パラレル商品を通常β版と分離して確認。 / ニュータイプチャレンジPR専用カテゴリ(product-list/817)をNTC優勝の監視対象に追加。",
+    "probeUrls": {
+      "lrpp": [
+        "https://www.cardland-kamata.com/product-list/759"
+      ],
+      "beta": [
+        "https://www.cardland-kamata.com/product/34537"
+      ]
+    },
+    "notes": "竜のしっぽから変更。カード名＋収録＋LR++、β版は「Ver.β/パラレル」を専用照合。通常版・Ver.β/LRとは分離。",
+    "ntcScopedUrlContains": [
+      "/product-list/817"
+    ]
+  },
+  {
+    "id": "dorasuta",
+    "name": "ドラゴンスター",
+    "homeUrl": "https://dorasuta.jp/gundam-gcg/series-list",
+    "urls": [
+      "https://dorasuta.jp/gundam-gcg/product-list?st0=1",
+      "https://dorasuta.jp/gundam-gcg/product-list?sid=9486"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "lineLegacy": true,
+    "notes": "前回のLINE監視対象。商品一覧にLR++/β版・SOLDOUT/カート表示あり。SOLDOUTとカート文言が併存する場合は安全側で判定保留。",
+    "negativeWins": true,
+    "forbidUrlContains": [
+      "buy.dorasuta.jp"
+    ],
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "probeUrls": {
+      "lrpp": [
+        "https://dorasuta.jp/gundam-gcg/product-list?st0=1"
+      ],
+      "beta": [
+        "https://dorasuta.jp/gundam-gcg/product?pid=583383"
+      ]
+    }
+  },
+  {
+    "id": "playze",
+    "name": "プレイズ 公式通販",
+    "homeUrl": "https://playze.jp/collections/gundam-gcg",
+    "urls": [
+      "https://playze.jp/collections/gundam-gcg"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "lineLegacy": true,
+    "notes": "前回LINE監視対象。在庫は「残り○点」「売り切れ」を厳密照合。",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "サイト自体は取得良好。Shopifyの複数ページ巡回が必要で、2枚の対象が先頭ページに出ないため専用ページネーション実装待ち。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "cardkingdom",
+    "name": "カードキングダム通販",
+    "homeUrl": "https://card-kingdom.jp/gundom",
+    "urls": [
+      "https://card-kingdom.jp/gundom"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "lineLegacy": true,
+    "notes": "前回LINE監視対象。ガンダムカードゲーム専用カテゴリ。",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "GCGカテゴリは取得できるが、テスト2枚の対象バリエーションを今回厳密に確認できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "torekaoh",
+    "name": "トレカ王",
+    "homeUrl": "https://torekaoh.jp/",
+    "urls": [
+      "https://torekaoh.jp/",
+      "https://torekaoh.shop-pro.jp/"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "lineLegacy": true,
+    "notes": "前回LINE監視対象。ガンダムカードゲームカテゴリ取扱いを確認。",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "取扱いは確認できるが、テスト2枚の販売ページと在庫信号を今回確定できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "fukufuku",
+    "name": "福福トレカ ガンダムカード専門店",
+    "homeUrl": "https://gundam.fukufukutoreka.com/",
+    "urls": [
+      "https://gundam.fukufukutoreka.com/products/list?category_id=1",
+      "https://gundam.fukufukutoreka.com/products/list?category_id=11"
+    ],
+    "enabled": true,
+    "adapter": "catalog_paged",
+    "lineLegacy": true,
+    "notes": "前回LINE監視対象。ガンダム専門通販。在庫数表記を利用。",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "probeUrls": {
+      "lrpp": [
+        "https://gundam.fukufukutoreka.com/products/detail/2664"
+      ],
+      "beta": [
+        "https://gundam.fukufukutoreka.com/products/list?category_id=11"
+      ]
+    }
+  },
+  {
+    "id": "manzokuya",
+    "name": "まんぞく屋",
+    "homeUrl": "https://shopmanzokuya.com/",
+    "urls": [
+      "https://shopmanzokuya.com/products/list"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "lineLegacy": true,
+    "notes": "前回LINE監視対象。在庫○/数量表記を利用。対象カードが一覧に無い回は不明扱い。",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "在庫表記は取得できるが、テスト対象では通常版が主にヒットし、対象バリエーションを確定できず。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "dmmmyca",
+    "name": "DMMマイカ",
+    "homeUrl": "https://myca.dmm.com/",
+    "urls": [
+      "https://myca.dmm.com/sections/latestExpansion",
+      "https://myca.dmm.com/"
+    ],
+    "enabled": false,
+    "adapter": "generic",
+    "lineLegacy": true,
+    "notes": "前回LINE監視対象。複数ショップ集約型のため、取得できた販売元名も表示対象。",
+    "monitorStatus": "probation",
+    "supportedGroups": [],
+    "auditNote": "構造化情報はあるが集約型。対象バリエーションと販売元在庫を誤結合しない専用処理が必要。",
+    "probeUrls": {
+      "lrpp": [],
+      "beta": []
+    }
+  },
+  {
+    "id": "yuyutei",
+    "name": "遊々亭",
+    "homeUrl": "https://yuyu-tei.jp/",
+    "urls": [
+      "https://yuyu-tei.jp/sell/gcg/s/new",
+      "https://yuyu-tei.jp/sell/gcg/s/limited1.0"
+    ],
+    "enabled": true,
+    "adapter": "catalog_exact",
+    "lineLegacy": true,
+    "notes": "前回LINE監視対象。ガンダムカードゲーム取扱いあり。403/robots等の場合は回避せず判定保留。",
+    "negativeWins": true,
+    "forbidUrlContains": [
+      "/buy/",
+      "/damage"
+    ],
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル"
+    ],
+    "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。",
+    "probeUrls": {
+      "lrpp": [
+        "https://yuyu-tei.jp/sell/gcg/s/new"
+      ],
+      "beta": [
+        "https://yuyu-tei.jp/sell/gcg/s/limited1.0"
+      ]
+    }
+  },
+  {
+    "id": "torecolo",
+    "name": "カードボックス（CBトレコロ）",
+    "homeUrl": "https://www.torecolo.jp/shop/c/c1035/",
+    "urls": [
+      "https://www.torecolo.jp/shop/c/c10352090_dD_sspd/?ismodesmartphone=off",
+      "https://www.torecolo.jp/shop/c/c10352089_dD_sspd/?ismodesmartphone=off",
+      "https://www.torecolo.jp/shop/c/c10352088_dD_sspd/?ismodesmartphone=off",
+      "https://www.torecolo.jp/shop/c/c10352087_dD_sspd/?ismodesmartphone=off",
+      "https://www.torecolo.jp/shop/c/c10352085_dD_sspd/?ismodesmartphone=off",
+      "https://www.torecolo.jp/shop/c/c10356090_dD_srd-gn/?ismodesmartphone=off",
+      "https://www.torecolo.jp/shop/c/c10356090_dD_srd-gn_p2/?ismodesmartphone=off"
+    ],
+    "enabled": true,
+    "adapter": "torecolo_exact",
+    "negativeWins": true,
+    "monitorStatus": "verified",
+    "supportedGroups": [
+      "LR++",
+      "β版パラレル"
+    ],
+    "forbidUrlContains": [
+      "/shop/c/c203",
+      "-S/"
+    ],
+    "notes": "トレカエースから変更。販売ページのみ監視し、買取(/c/c203…)は除外。中古良品の在庫数を採用し、キズありは店舗数に加算しない。",
+    "auditNote": "代表LR++でLR++商品と在庫表示、代表β版で「リミテッドBOX Ver.β」「LR+」「在庫0点」を個別商品ページで確認。",
+    "probeUrls": {
+      "lrpp": [
+        "https://www.torecolo.jp/shop/c/c103520/"
+      ],
+      "beta": [
+        "https://www.torecolo.jp/shop/g/gGCG-ST02-001LRPLSB/"
+      ]
+    }
+  }
+]
