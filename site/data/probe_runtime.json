@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T17:52:51.686545Z",
+  "generatedAt": "2026-11-18T00:09:34.110953Z",
   "note": "This probe only checks two representative cards from the actual automation network. It never promotes a probation shop automatically.",
   "shops": [
     {
@@ -8,16 +8,12 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://www.bigweb.co.jp/ja/products/gundamgcg/list?cardsets=8906",
-          "bytes": 1746
+          "status": "robots_hold",
+          "reason": "robots HTTP 502"
         },
         "beta": {
-          "status": "page_ok_sample_missing",
-          "http": 200,
-          "url": "https://www.bigweb.co.jp/ja/products/gundamgcg/list?recommend_id=877",
-          "bytes": 1746
+          "status": "robots_hold",
+          "reason": "robots HTTP 502"
         }
       }
     },
@@ -64,7 +60,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://shopping.fullcomp.jp/products/pdijzo44bp6g?variant=43055565963358",
-          "bytes": 323106
+          "bytes": 323160
         },
         "beta": {
           "status": "not_configured",
@@ -85,7 +81,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://www.gun-happy.com/view/item/000000000408",
-          "bytes": 79347
+          "bytes": 79345
         }
       }
     },
@@ -113,7 +109,7 @@
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://pao-onlineshop.com/view/category/GCG",
-          "bytes": 671459
+          "bytes": 671463
         },
         "beta": {
           "status": "not_configured",
@@ -230,7 +226,7 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://193tcg.com/products/list?category_id=2392",
-          "bytes": 998964
+          "bytes": 998797
         },
         "beta": {
           "status": "not_configured",
@@ -247,13 +243,13 @@
           "status": "sample_found",
           "http": 200,
           "url": "https://tier-one.jp/view/item/000000016218",
-          "bytes": 120584
+          "bytes": 120648
         },
         "beta": {
           "status": "page_ok_sample_missing",
           "http": 200,
           "url": "https://tier-one.jp/view/category/gcg",
-          "bytes": 277807
+          "bytes": 277913
         }
       }
     },
@@ -357,12 +353,16 @@
       "monitorStatus": "verified",
       "samples": {
         "lrpp": {
-          "status": "robots_hold",
-          "reason": "robots error ConnectTimeout"
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://gundam.fukufukutoreka.com/products/detail/2664",
+          "bytes": 99314
         },
         "beta": {
-          "status": "robots_hold",
-          "reason": "robots error ConnectTimeout"
+          "status": "sample_found",
+          "http": 200,
+          "url": "https://gundam.fukufukutoreka.com/products/list?category_id=11",
+          "bytes": 314829
         }
       }
     },
