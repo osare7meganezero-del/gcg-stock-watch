@@ -1,0 +1,355 @@
+{
+  "generatedAt": "2026-08-28",
+  "note": "v1.8: mobile-side requirements merged; 竜のしっぽ→カードランド、トレカエース→カードボックス（CBトレコロ）。代表LR++/β版の販売側確認を反映。",
+  "shops": [
+    {
+      "id": "bigweb",
+      "name": "BIGWEB",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_exact",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://www.bigweb.co.jp/ja/products/gundamgcg/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "cardlabo",
+      "name": "カードラボ",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_exact",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://www.c-labo-online.jp/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "amenity",
+      "name": "アメニティードリーム",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "公開ページは取得できるが、2枚の対象バリエーション（LR++ / β LR+）を販売側で厳密に確認できず。通常LR等との誤一致を防ぐため保留。",
+      "homeUrl": "https://www.amenitydream.com/",
+      "supportedGroups": [],
+      "auditNote": "公開ページは取得できるが、2枚の対象バリエーション（LR++ / β LR+）を販売側で厳密に確認できず。通常LR等との誤一致を防ぐため保留。"
+    },
+    {
+      "id": "fullcomp",
+      "name": "フルコンプ ONLINE SHOP",
+      "monitorStatus": "verified_partial",
+      "lrpp": "verified",
+      "beta": "hold",
+      "method": "catalog_exact",
+      "note": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+      "homeUrl": "https://shopping.fullcomp.jp/collections/gcg",
+      "supportedGroups": [
+        "LR++"
+      ],
+      "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。"
+    },
+    {
+      "id": "gunhappy",
+      "name": "ガンハッピー",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_paged",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://www.gun-happy.com/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "projectcore",
+      "name": "PROJECT CORE",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "販売ページ自体は確認できるが、テスト2枚の対象バリエーションを厳密に発見できず。",
+      "homeUrl": "https://www.projectcore.jp/",
+      "supportedGroups": [],
+      "auditNote": "販売ページ自体は確認できるが、テスト2枚の対象バリエーションを厳密に発見できず。"
+    },
+    {
+      "id": "pao",
+      "name": "通販のPAO",
+      "monitorStatus": "verified_partial",
+      "lrpp": "verified",
+      "beta": "hold",
+      "method": "catalog_exact",
+      "note": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+      "homeUrl": "https://pao-onlineshop.com/",
+      "supportedGroups": [
+        "LR++"
+      ],
+      "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。"
+    },
+    {
+      "id": "spiral",
+      "name": "カードショップすぱいらる",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "静的ページは取得可能だが、テスト2枚の対象バリエーションの厳密一致を今回確認できず。",
+      "homeUrl": "https://www.card-spiral.jp/",
+      "supportedGroups": [],
+      "auditNote": "静的ページは取得可能だが、テスト2枚の対象バリエーションの厳密一致を今回確認できず。"
+    },
+    {
+      "id": "cardmax",
+      "name": "CARDMAX",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "カテゴリは確認できるが、テスト2枚の対象商品と在庫信号の安定した組み合わせを確認できず。",
+      "homeUrl": "https://www.akiba.cardmax.jp/",
+      "supportedGroups": [],
+      "auditNote": "カテゴリは確認できるが、テスト2枚の対象商品と在庫信号の安定した組み合わせを確認できず。"
+    },
+    {
+      "id": "bankoku",
+      "name": "トレカの万国",
+      "monitorStatus": "verified_partial",
+      "lrpp": "verified",
+      "beta": "hold",
+      "method": "catalog_exact",
+      "note": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+      "homeUrl": "https://torekanobankoku.com/",
+      "supportedGroups": [
+        "LR++"
+      ],
+      "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。"
+    },
+    {
+      "id": "mercard",
+      "name": "メルカード ガンダムカードEC店",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_exact",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://www.mercardgundam.jp/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "hobbystation",
+      "name": "ホビーステーション シングル通販",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_exact",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://www.hobbystation-single.jp/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "advantage",
+      "name": "TCG通販アドバンテージ",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "β通常版などは見えるが、β LR+テスト対象とLR++テスト対象の双方を厳密に確認できず。",
+      "homeUrl": "https://www.advantagetcg.jp/",
+      "supportedGroups": [],
+      "auditNote": "β通常版などは見えるが、β LR+テスト対象とLR++テスト対象の双方を厳密に確認できず。"
+    },
+    {
+      "id": "193net",
+      "name": "193net",
+      "monitorStatus": "verified_partial",
+      "lrpp": "verified",
+      "beta": "hold",
+      "method": "catalog_exact",
+      "note": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+      "homeUrl": "https://193tcg.com/",
+      "supportedGroups": [
+        "LR++"
+      ],
+      "auditNote": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。"
+    },
+    {
+      "id": "tierone",
+      "name": "Tier One",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_exact",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://tier-one.jp/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "mintmall",
+      "name": "MINTモール",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "複数出品者型で販売在庫の正規化が複雑。2枚のテスト対象を安定して同一ルールで判定できず。",
+      "homeUrl": "https://www.mint-mall.net/",
+      "supportedGroups": [],
+      "auditNote": "複数出品者型で販売在庫の正規化が複雑。2枚のテスト対象を安定して同一ルールで判定できず。"
+    },
+    {
+      "id": "cardland",
+      "name": "カードランド",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "hold",
+      "method": "catalog_exact",
+      "note": "LR++テスト対象は確認。β版テスト対象は厳密確認できないためβ監視から除外。",
+      "homeUrl": "https://www.cardland-kamata.com/product-list/759",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "代表LR++はGD05一覧で在庫数/在庫なしを確認。β版はウイングガンダムのVer.β/パラレル商品を通常β版と分離して確認。"
+    },
+    {
+      "id": "dorasuta",
+      "name": "ドラゴンスター",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_exact",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://dorasuta.jp/gundam-gcg/series-list",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "playze",
+      "name": "プレイズ 公式通販",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "サイト自体は取得良好。Shopifyの複数ページ巡回が必要で、2枚の対象が先頭ページに出ないため専用ページネーション実装待ち。",
+      "homeUrl": "https://playze.jp/collections/gundam-gcg",
+      "supportedGroups": [],
+      "auditNote": "サイト自体は取得良好。Shopifyの複数ページ巡回が必要で、2枚の対象が先頭ページに出ないため専用ページネーション実装待ち。"
+    },
+    {
+      "id": "cardkingdom",
+      "name": "カードキングダム通販",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "GCGカテゴリは取得できるが、テスト2枚の対象バリエーションを今回厳密に確認できず。",
+      "homeUrl": "https://card-kingdom.jp/gundom",
+      "supportedGroups": [],
+      "auditNote": "GCGカテゴリは取得できるが、テスト2枚の対象バリエーションを今回厳密に確認できず。"
+    },
+    {
+      "id": "torekaoh",
+      "name": "トレカ王",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "取扱いは確認できるが、テスト2枚の販売ページと在庫信号を今回確定できず。",
+      "homeUrl": "https://torekaoh.jp/",
+      "supportedGroups": [],
+      "auditNote": "取扱いは確認できるが、テスト2枚の販売ページと在庫信号を今回確定できず。"
+    },
+    {
+      "id": "fukufuku",
+      "name": "福福トレカ ガンダムカード専門店",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_paged",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://gundam.fukufukutoreka.com/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "manzokuya",
+      "name": "まんぞく屋",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "在庫表記は取得できるが、テスト対象では通常版が主にヒットし、対象バリエーションを確定できず。",
+      "homeUrl": "https://shopmanzokuya.com/",
+      "supportedGroups": [],
+      "auditNote": "在庫表記は取得できるが、テスト対象では通常版が主にヒットし、対象バリエーションを確定できず。"
+    },
+    {
+      "id": "dmmmyca",
+      "name": "DMMマイカ",
+      "monitorStatus": "probation",
+      "lrpp": "hold",
+      "beta": "hold",
+      "method": "generic",
+      "note": "構造化情報はあるが集約型。対象バリエーションと販売元在庫を誤結合しない専用処理が必要。",
+      "homeUrl": "https://myca.dmm.com/",
+      "supportedGroups": [],
+      "auditNote": "構造化情報はあるが集約型。対象バリエーションと販売元在庫を誤結合しない専用処理が必要。"
+    },
+    {
+      "id": "yuyutei",
+      "name": "遊々亭",
+      "monitorStatus": "verified",
+      "lrpp": "verified",
+      "beta": "verified",
+      "method": "catalog_exact",
+      "note": "テスト2枚で対象バリエーションの販売側情報を確認。",
+      "homeUrl": "https://yuyu-tei.jp/",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "テスト2枚で対象バリエーションの販売側情報を確認。"
+    },
+    {
+      "id": "torecolo",
+      "name": "カードボックス（CBトレコロ）",
+      "homeUrl": "https://www.torecolo.jp/shop/c/c1035/",
+      "monitorStatus": "verified",
+      "supportedGroups": [
+        "LR++",
+        "β版パラレル"
+      ],
+      "auditNote": "代表LR++でLR++商品と在庫表示、代表β版で「リミテッドBOX Ver.β」「LR+」「在庫0点」を個別商品ページで確認。"
+    }
+  ]
+}
